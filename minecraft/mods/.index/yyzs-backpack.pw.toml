@@ -1,0 +1,18 @@
+filename = 'yyzsbackpack-neoforge-21.1.13.jar'
+name = "yyz's backpack"
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '21.1.13'
+
+[download]
+hash = '2baff41e443c2d1ee40f82423befb19786a65d06257d2a402a21a444d97260162d883f01d3c9d545095cf0fef022a1e02502712de70553004ab7acb3971c8581'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zO7tsTJN/versions/jiao2sMM/yyzsbackpack-neoforge-21.1.13.jar'
+
+[update.modrinth]
+mod-id = 'zO7tsTJN'
+version = 'jiao2sMM'

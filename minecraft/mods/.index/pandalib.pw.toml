@@ -1,0 +1,18 @@
+filename = 'pandalib-neoforge-1.21.1-0.6.0.jar'
+name = 'PandaLib'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.6.0'
+
+[download]
+hash = '163eb53f16ec58fbad91aa95fe3870c7f29eb6de43a3b389e19cafed5ae7383f9237e7726584c920f7b3da7feef9bc93c47d254857e31a3c65046ab431b07ce4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/mEEGbEIu/versions/RyUlB24m/pandalib-neoforge-1.21.1-0.6.0.jar'
+
+[update.modrinth]
+mod-id = 'mEEGbEIu'
+version = 'RyUlB24m'

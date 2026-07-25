@@ -1,0 +1,18 @@
+filename = 'kissmod-2.0.0-alpha.2+mc1.21.1-neoforge.jar'
+name = 'kiss'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '2.0.0-alpha.2+mc1.21.1-neoforge'
+
+[download]
+hash = '940500a7b9d8cd35bc902ea8adff277f8da3704385a7eaf50a8d9c3eb8e91f30e7fa3a9040460c50b68668a3823de50f23d337be86bbea62f78d26f0a2de40e0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/625eK1Si/versions/oRuX97qb/kissmod-2.0.0-alpha.2%2Bmc1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = '625eK1Si'
+version = 'oRuX97qb'

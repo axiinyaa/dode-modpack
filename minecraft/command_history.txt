@@ -1,0 +1,14 @@
+/locate biome minecraft:plains
+/tp @s 1065 103 386
+/data get block 1387 67 327
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/spark gcmonitor
+/spark gc
+/spark tps
+/spark profiler
+/spark profiler open
+/spark profiler
+/spark profiler open

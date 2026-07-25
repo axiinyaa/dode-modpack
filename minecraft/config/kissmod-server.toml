@@ -1,0 +1,43 @@
+[kiss]
+	enableKissCommand = true
+	# Default: 10
+	# Range: 0 ~ 600
+	commandCooldownSeconds = 10
+	kissMessage = "%s kissed you!"
+	kissPromptMessage = "You kissed %s!"
+	selfKissErrorMessage = "You can't kiss yourself!"
+	cooldownErrorMessage = "Wait %d seconds before kissing again!"
+
+[sneak]
+	# Default: 6
+	# Range: 0 ~ 64
+	maxSneakParticles = 6
+	# Default: 2
+	# Range: 0 ~ 64
+	sneakParticleDecay = 2
+	# Default: 3
+	# Range: 1 ~ 20
+	sneakTriggerCount = 3
+	# Default: 40
+	# Range: 1 ~ 200
+	sneakTriggerWindowTicks = 40
+	# Default: 6.0
+	# Range: 0.0 ~ 64.0
+	sneakPreviewRadius = 6.0
+	# Default: 16.0
+	# Range: 1.0 ~ 64.0
+	sneakTriggerRadius = 16.0
+	# Default: 90.0
+	# Range: 0.0 ~ 180.0
+	maxViewAngle = 90.0
+
+[entityParticles]
+	enableEntityParticles = true
+	# Default: 8.0
+	# Range: 1.0 ~ 32.0
+	entityParticleRadius = 8.0
+	# Default: 0.35
+	# Range: 0.0 ~ 4.0
+	heartParticleHeightOffset = 0.35
+	friendlyEntityTypes = ["minecraft:villager", "minecraft:cow", "minecraft:sheep", "minecraft:pig", "minecraft:chicken", "minecraft:horse", "minecraft:donkey", "minecraft:mule", "minecraft:llama", "minecraft:trader_llama", "minecraft:camel", "minecraft:parrot", "minecraft:cat", "minecraft:wolf", "minecraft:ocelot", "minecraft:fox", "minecraft:panda", "minecraft:bee", "minecraft:rabbit", "minecraft:turtle", "minecraft:mooshroom", "minecraft:sniffer", "minecraft:iron_golem", "minecraft:snow_golem", "minecraft:axolotl", "minecraft:dolphin"]
+	friendlyEntityTags = []

@@ -1,0 +1,26 @@
+filename = 'better-babies-0.7.13.jar'
+name = 'Better Babies'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.7.13+mod'
+
+[download]
+hash = '898cd14aa83adb05e4f89e945890fb781ec43db74ceb3d8d42d7eba2dc71c4a513b0cdac459d26459acff16509d3b475346ed1628ef077f8f46aed5957f52b6b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/W9qgAZfz/versions/A4g4fcwi/better-babies-0.7.13.jar'
+
+[update.modrinth]
+mod-id = 'W9qgAZfz'
+version = 'A4g4fcwi'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ZS3lIxKu'
+type = 'REQUIRED'
+version = 'Vu7afFvf'
