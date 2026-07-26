@@ -1,0 +1,21 @@
+filename = 'gravelminer-neoforge-1.21.1-21.1.3.jar'
+name = 'GravelMiner'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '21.1.3+neoforge-1.21.1'
+
+[download]
+hash = '4b0cb9efd53206925761dc8240bc2894d11fa8fb78af38533c9f8d491848229b6fc4ac2745128957a0695dca220dfd4fb154925537d3a54b38df48041519eccc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/iAzrhsju/versions/8QA0TT89/gravelminer-neoforge-1.21.1-21.1.3.jar'
+
+[update.modrinth]
+mod-id = 'iAzrhsju'
+version = '8QA0TT89'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'MBAkmtvl'
+type = 'REQUIRED'

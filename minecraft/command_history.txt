@@ -1,27 +1,3 @@
-/spark profiler open
-/spark profiler
-/spark profiler open
-/locate structure minecraft:village_plains
-/tp @s 400 ~ -1008
-/time set night
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/probejs
-/kubejs reload
-/reload
-/season set mid_winter
-/locate structure minecraft:village_plains
-/tp @s -1456 ~ -480
-/tick rate 1000
-/tick rate 10000
-/season set mid_summer
-/gamemode creative
-/tick rate 20
-/effect give @s farmersdelight:comfort
-/gamemode survival
-/reload
 /gamemode creative
 /data get block
 /data get block -1460 65 -345
@@ -48,3 +24,27 @@
 /gamemode creative
 /gamemode survival
 /gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamerule keepInventory falsde
+/gamerule keepInventory falsew
+/gamerule keepInventory false
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamerule keepInventory false
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/clear

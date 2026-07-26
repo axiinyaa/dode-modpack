@@ -1,0 +1,16 @@
+#Whether the mod is enabled.
+modEnabled = true
+#Whether enchantable items should be kept. Items in datapack tags override this.
+keepEnchantable = true
+#Whether items with a max_damage component should be kept. Items in datapack tags override this.
+keepDamageable = true
+#Whether items that are able to be equipped should be dropped. This includes Accessories if installed.
+keepEquippable = true
+#How much items should be thrown when you die. 1 is the vanilla default.
+# Default: 0.1
+# Range: 0.0 ~ 100.0
+itemVelocityMultiplier = 0.1
+#Percent of experience should be dropped when you die. Set to 0 to use Minecraft's calculations.
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+experienceDropped = 1.0
