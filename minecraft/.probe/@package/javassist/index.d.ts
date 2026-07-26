@@ -1,0 +1,380 @@
+import { $InputStream, $DataOutputStream } from "@package/java/io";
+import { $AccessorMaker } from "@package/javassist/compiler";
+import { $URL } from "@package/java/net";
+import { $ExprEditor } from "@package/javassist/expr";
+import { $ProtectionDomain } from "@package/java/security";
+import { $MethodHandles$Lookup } from "@package/java/lang/invoke";
+import { $FieldInfo, $ClassFile, $MethodInfo } from "@package/javassist/bytecode";
+import { $ClassLoader, $Object, $Class } from "@package/java/lang";
+import { $Iterator, $HashMap, $Collection } from "@package/java/util";
+export * as expr from "@package/javassist/expr";
+export * as bytecode from "@package/javassist/bytecode";
+export * as compiler from "@package/javassist/compiler";
+
+declare module "@package/javassist" {
+    export class $CtConstructor extends $CtBehavior {
+        isClassInitializer(): boolean;
+        toMethod(arg0: string, arg1: $CtClass): $CtMethod;
+        toMethod(arg0: string, arg1: $CtClass, arg2: $ClassMap): $CtMethod;
+        callsSuper(): boolean;
+        insertBeforeBody(arg0: string): void;
+        isConstructor(): boolean;
+        setBody(arg0: $CtConstructor, arg1: $ClassMap): void;
+        constructor(arg0: $CtConstructor, arg1: $CtClass, arg2: $ClassMap);
+        constructor(arg0: $CtClass[], arg1: $CtClass);
+        get classInitializer(): boolean;
+        get constructor(): boolean;
+    }
+    export class $CodeConverter$ArrayAccessReplacementMethodNames {
+    }
+    export interface $CodeConverter$ArrayAccessReplacementMethodNames {
+        objectRead(): string;
+        byteOrBooleanRead(): string;
+        charRead(): string;
+        doubleRead(): string;
+        floatRead(): string;
+        intRead(): string;
+        shortRead(): string;
+        longRead(): string;
+        objectWrite(): string;
+        byteOrBooleanWrite(): string;
+        charWrite(): string;
+        doubleWrite(): string;
+        floatWrite(): string;
+        intWrite(): string;
+        shortWrite(): string;
+        longWrite(): string;
+    }
+    export class $CtField$Initializer {
+        static byExpr(arg0: string): $CtField$Initializer;
+        static byNew(arg0: $CtClass, arg1: string[]): $CtField$Initializer;
+        static byNew(arg0: $CtClass): $CtField$Initializer;
+        static byParameter(arg0: number): $CtField$Initializer;
+        static byNewWithParams(arg0: $CtClass, arg1: string[]): $CtField$Initializer;
+        static byNewWithParams(arg0: $CtClass): $CtField$Initializer;
+        static byCall(arg0: $CtClass, arg1: string, arg2: string[]): $CtField$Initializer;
+        static byCall(arg0: $CtClass, arg1: string): $CtField$Initializer;
+        static byCallWithParams(arg0: $CtClass, arg1: string): $CtField$Initializer;
+        static byCallWithParams(arg0: $CtClass, arg1: string, arg2: string[]): $CtField$Initializer;
+        static byNewArray(arg0: $CtClass, arg1: number[]): $CtField$Initializer;
+        static byNewArray(arg0: $CtClass, arg1: number): $CtField$Initializer;
+        static constant(arg0: string): $CtField$Initializer;
+        static constant(arg0: boolean): $CtField$Initializer;
+        static constant(arg0: number): $CtField$Initializer;
+        static constant(arg0: number): $CtField$Initializer;
+        static constant(arg0: number): $CtField$Initializer;
+        static constant(arg0: number): $CtField$Initializer;
+        constructor();
+    }
+    export class $ClassPath {
+    }
+    export interface $ClassPath {
+        openClassfile(arg0: string): $InputStream;
+        find(arg0: string): $URL;
+    }
+    export class $CtField extends $CtMember {
+        getFieldInfo2(): $FieldInfo;
+        getFieldInfo(): $FieldInfo;
+        getConstantValue(): $Object;
+        setType(arg0: $CtClass): void;
+        static make(arg0: string, arg1: $CtClass): $CtField;
+        setName(arg0: string): void;
+        getType(): $CtClass;
+        constructor(arg0: $CtClass, arg1: string, arg2: $CtClass);
+        constructor(arg0: $CtField, arg1: $CtClass);
+        get fieldInfo2(): $FieldInfo;
+        get fieldInfo(): $FieldInfo;
+        get constantValue(): $Object;
+        set name(value: string);
+    }
+    export class $ClassPool {
+        appendSystemPath(): $ClassPath;
+        clearImportedPackages(): void;
+        makeInterface(arg0: string, arg1: $CtClass): $CtClass;
+        makeInterface(arg0: string): $CtClass;
+        insertClassPath(arg0: $ClassPath): $ClassPath;
+        insertClassPath(arg0: string): $ClassPath;
+        removeClassPath(arg0: $ClassPath): void;
+        importPackage(arg0: string): void;
+        getImportedPackages(): $Iterator<string>;
+        recordInvalidClassName(arg0: string): void;
+        lookupCflow(arg0: string): $Object[];
+        getAndRename(arg0: string, arg1: string): $CtClass;
+        getCtClass(arg0: string): $CtClass;
+        makeClassIfNew(arg0: $InputStream): $CtClass;
+        makeAnnotation(arg0: string): $CtClass;
+        appendPathList(arg0: string): void;
+        makePackage(arg0: $ClassLoader, arg1: string): void;
+        makeClass(arg0: $ClassFile): $CtClass;
+        makeClass(arg0: $ClassFile, arg1: boolean): $CtClass;
+        makeClass(arg0: string): $CtClass;
+        makeClass(arg0: string, arg1: $CtClass): $CtClass;
+        makeClass(arg0: $InputStream, arg1: boolean): $CtClass;
+        makeClass(arg0: $InputStream): $CtClass;
+        get(arg0: string): $CtClass;
+        get(arg0: string[]): $CtClass[];
+        static getDefault(): $ClassPool;
+        getClassLoader(): $ClassLoader;
+        toClass(arg0: $CtClass, arg1: $MethodHandles$Lookup): $Class<never>;
+        toClass(arg0: $CtClass, arg1: $ClassLoader): $Class<any>;
+        toClass(arg0: $CtClass, arg1: $ClassLoader, arg2: $ProtectionDomain): $Class<any>;
+        toClass(arg0: $CtClass, arg1: $Class<never>, arg2: $ClassLoader, arg3: $ProtectionDomain): $Class<any>;
+        toClass(arg0: $CtClass, arg1: $Class<never>): $Class<never>;
+        toClass(arg0: $CtClass): $Class<any>;
+        getMethod(arg0: string, arg1: string): $CtMethod;
+        find(arg0: string): $URL;
+        appendClassPath(arg0: $ClassPath): $ClassPath;
+        appendClassPath(arg0: string): $ClassPath;
+        getOrNull(arg0: string): $CtClass;
+        static doPruning: boolean;
+        childFirstLookup: boolean;
+        static cacheOpenedJarFile: boolean;
+        static releaseUnmodifiedClassFile: boolean;
+        constructor();
+        constructor(arg0: $ClassPool);
+        constructor(arg0: boolean);
+        get importedPackages(): $Iterator<string>;
+        static get default(): $ClassPool;
+        get classLoader(): $ClassLoader;
+    }
+    export class $CtClass {
+        makeNestedClass(arg0: string, arg1: boolean): $CtClass;
+        getClassFile2(): $ClassFile;
+        getRefClasses(): $Collection<string>;
+        getEnclosingBehavior(): $CtBehavior;
+        getClassPool(): $ClassPool;
+        debugWriteFile(): void;
+        debugWriteFile(arg0: string): void;
+        stopPruning(arg0: boolean): boolean;
+        defrost(): void;
+        getAccessorMaker(): $AccessorMaker;
+        setGenericSignature(arg0: string): void;
+        replaceClassName(arg0: string, arg1: string): void;
+        replaceClassName(arg0: $ClassMap): void;
+        getAvailableAnnotations(): $Object[];
+        subclassOf(arg0: $CtClass): boolean;
+        setSuperclass(arg0: $CtClass): void;
+        setInterfaces(arg0: $CtClass[]): void;
+        getClassFile(): $ClassFile;
+        toBytecode(arg0: $DataOutputStream): void;
+        toBytecode(): number[];
+        getDeclaredBehaviors(): $CtBehavior[];
+        getClassInitializer(): $CtConstructor;
+        makeClassInitializer(): $CtConstructor;
+        removeConstructor(arg0: $CtConstructor): void;
+        removeMethod(arg0: $CtMethod): void;
+        rebuildClassFile(): void;
+        makeUniqueName(arg0: string): string;
+        addConstructor(arg0: $CtConstructor): void;
+        writeFile(): void;
+        writeFile(arg0: string): void;
+        getNestedClasses(): $CtClass[];
+        hasAnnotation(arg0: $Class<never>): boolean;
+        hasAnnotation(arg0: string): boolean;
+        addField(arg0: $CtField): void;
+        addField(arg0: $CtField, arg1: $CtField$Initializer): void;
+        addField(arg0: $CtField, arg1: string): void;
+        isKotlin(): boolean;
+        removeField(arg0: $CtField): void;
+        getAttribute(arg0: string): number[];
+        setAttribute(arg0: string, arg1: number[]): void;
+        addMethod(arg0: $CtMethod): void;
+        getName(): string;
+        static main(arg0: string[]): void;
+        getModifiers(): number;
+        isInterface(): boolean;
+        isArray(): boolean;
+        isPrimitive(): boolean;
+        getSuperclass(): $CtClass;
+        getComponentType(): $CtClass;
+        isAnnotation(): boolean;
+        isEnum(): boolean;
+        getInterfaces(): $CtClass[];
+        toClass(arg0: $MethodHandles$Lookup): $Class<never>;
+        toClass(arg0: $ClassLoader, arg1: $ProtectionDomain): $Class<never>;
+        toClass(): $Class<never>;
+        /**
+         * @deprecated
+         */
+        toClass(arg0: $ClassLoader): $Class<never>;
+        toClass(arg0: $Class<never>): $Class<never>;
+        getSimpleName(): string;
+        getPackageName(): string;
+        getMethod(arg0: string, arg1: string): $CtMethod;
+        /**
+         * @deprecated
+         */
+        getEnclosingMethod(): $CtMethod;
+        getDeclaringClass(): $CtClass;
+        getFields(): $CtField[];
+        getMethods(): $CtMethod[];
+        getConstructors(): $CtConstructor[];
+        getField(arg0: string, arg1: string): $CtField;
+        getField(arg0: string): $CtField;
+        getConstructor(arg0: string): $CtConstructor;
+        getDeclaredClasses(): $CtClass[];
+        getDeclaredFields(): $CtField[];
+        getDeclaredMethods(): $CtMethod[];
+        getDeclaredMethods(arg0: string): $CtMethod[];
+        getDeclaredConstructors(): $CtConstructor[];
+        getDeclaredField(arg0: string, arg1: string): $CtField;
+        getDeclaredField(arg0: string): $CtField;
+        getDeclaredMethod(arg0: string, arg1: $CtClass[]): $CtMethod;
+        getDeclaredMethod(arg0: string): $CtMethod;
+        getDeclaredConstructor(arg0: $CtClass[]): $CtConstructor;
+        getAnnotation(arg0: $Class<never>): $Object;
+        getAnnotations(): $Object[];
+        setName(arg0: string): void;
+        getGenericSignature(): string;
+        isFrozen(): boolean;
+        freeze(): void;
+        getURL(): $URL;
+        detach(): void;
+        subtypeOf(arg0: $CtClass): boolean;
+        isModified(): boolean;
+        prune(): void;
+        addInterface(arg0: $CtClass): void;
+        setModifiers(arg0: number): void;
+        instrument(arg0: $CodeConverter): void;
+        instrument(arg0: $ExprEditor): void;
+        static debugDump: string;
+        static charType: $CtClass;
+        static doubleType: $CtClass;
+        static floatType: $CtClass;
+        static booleanType: $CtClass;
+        static intType: $CtClass;
+        static shortType: $CtClass;
+        static voidType: $CtClass;
+        static byteType: $CtClass;
+        static version: string;
+        static longType: $CtClass;
+        get classFile2(): $ClassFile;
+        get refClasses(): $Collection<string>;
+        get enclosingBehavior(): $CtBehavior;
+        get classPool(): $ClassPool;
+        get accessorMaker(): $AccessorMaker;
+        get availableAnnotations(): $Object[];
+        get classFile(): $ClassFile;
+        get declaredBehaviors(): $CtBehavior[];
+        get classInitializer(): $CtConstructor;
+        get nestedClasses(): $CtClass[];
+        get kotlin(): boolean;
+        get interface(): boolean;
+        get array(): boolean;
+        get primitive(): boolean;
+        get componentType(): $CtClass;
+        get enum(): boolean;
+        get simpleName(): string;
+        get packageName(): string;
+        get enclosingMethod(): $CtMethod;
+        get declaringClass(): $CtClass;
+        get fields(): $CtField[];
+        get methods(): $CtMethod[];
+        get constructors(): $CtConstructor[];
+        get declaredClasses(): $CtClass[];
+        get declaredFields(): $CtField[];
+        get declaredConstructors(): $CtConstructor[];
+        get annotations(): $Object[];
+        get frozen(): boolean;
+        get URL(): $URL;
+        get modified(): boolean;
+    }
+    export class $CtBehavior extends $CtMember {
+        getLongName(): string;
+        getMethodInfo(): $MethodInfo;
+        getMethodInfo2(): $MethodInfo;
+        addCatch(arg0: string, arg1: $CtClass): void;
+        addCatch(arg0: string, arg1: $CtClass, arg2: string): void;
+        setExceptionTypes(arg0: $CtClass[]): void;
+        useCflow(arg0: string): void;
+        insertAfter(arg0: string): void;
+        insertAfter(arg0: string, arg1: boolean): void;
+        insertAfter(arg0: string, arg1: boolean, arg2: boolean): void;
+        addParameter(arg0: $CtClass): void;
+        getAvailableParameterAnnotations(): $Object[][];
+        insertBefore(arg0: string): void;
+        insertParameter(arg0: $CtClass): void;
+        insertAt(arg0: number, arg1: string): number;
+        insertAt(arg0: number, arg1: boolean, arg2: string): number;
+        isEmpty(): boolean;
+        getParameterTypes(): $CtClass[];
+        getParameterAnnotations(): $Object[][];
+        getExceptionTypes(): $CtClass[];
+        setBody(arg0: string): void;
+        setBody(arg0: string, arg1: string, arg2: string): void;
+        addLocalVariable(arg0: string, arg1: $CtClass): void;
+        instrument(arg0: $ExprEditor): void;
+        instrument(arg0: $CodeConverter): void;
+        get longName(): string;
+        get methodInfo(): $MethodInfo;
+        get methodInfo2(): $MethodInfo;
+        get availableParameterAnnotations(): $Object[][];
+        get empty(): boolean;
+        get parameterTypes(): $CtClass[];
+        get parameterAnnotations(): $Object[][];
+    }
+    export class $CtMethod extends $CtBehavior {
+        setWrappedBody(arg0: $CtMethod, arg1: $CtMethod$ConstParameter): void;
+        static make(arg0: string, arg1: $CtClass): $CtMethod;
+        static make(arg0: $MethodInfo, arg1: $CtClass): $CtMethod;
+        getReturnType(): $CtClass;
+        setName(arg0: string): void;
+        setBody(arg0: $CtMethod, arg1: $ClassMap): void;
+        constructor(arg0: $CtMethod, arg1: $CtClass, arg2: $ClassMap);
+        constructor(arg0: $CtClass, arg1: string, arg2: $CtClass[], arg3: $CtClass);
+        get returnType(): $CtClass;
+        set name(value: string);
+    }
+    export class $ClassMap extends $HashMap<string, string> {
+        static toJvmName(arg0: string): string;
+        static toJavaName(arg0: string): string;
+        putIfNone(arg0: string, arg1: string): void;
+        get(arg0: $Object): string;
+        put(arg0: $CtClass, arg1: $CtClass): void;
+        put(arg0: string, arg1: string): string;
+        fix(arg0: string): void;
+        fix(arg0: $CtClass): void;
+        constructor();
+    }
+    export class $CtMethod$ConstParameter {
+        static string(arg0: string): $CtMethod$ConstParameter;
+        static integer(arg0: number): $CtMethod$ConstParameter;
+        static integer(arg0: number): $CtMethod$ConstParameter;
+    }
+    export class $CodeConverter {
+        replaceNew(arg0: $CtClass, arg1: $CtClass): void;
+        replaceNew(arg0: $CtClass, arg1: $CtClass, arg2: string): void;
+        redirectFieldAccess(arg0: $CtField, arg1: $CtClass, arg2: string): void;
+        replaceFieldRead(arg0: $CtField, arg1: $CtClass, arg2: string): void;
+        replaceFieldWrite(arg0: $CtField, arg1: $CtClass, arg2: string): void;
+        replaceArrayAccess(arg0: $CtClass, arg1: $CodeConverter$ArrayAccessReplacementMethodNames): void;
+        redirectMethodCall(arg0: $CtMethod, arg1: $CtMethod): void;
+        redirectMethodCall(arg0: string, arg1: $CtMethod): void;
+        redirectMethodCallToStatic(arg0: $CtMethod, arg1: $CtMethod): void;
+        insertAfterMethod(arg0: $CtMethod, arg1: $CtMethod): void;
+        insertBeforeMethod(arg0: $CtMethod, arg1: $CtMethod): void;
+        constructor();
+    }
+    export class $CtMember {
+        setGenericSignature(arg0: string): void;
+        getAvailableAnnotations(): $Object[];
+        visibleFrom(arg0: $CtClass): boolean;
+        hasAnnotation(arg0: $Class<never>): boolean;
+        hasAnnotation(arg0: string): boolean;
+        getAttribute(arg0: string): number[];
+        setAttribute(arg0: string, arg1: number[]): void;
+        getName(): string;
+        getModifiers(): number;
+        getDeclaringClass(): $CtClass;
+        getAnnotation(arg0: $Class<never>): $Object;
+        getAnnotations(): $Object[];
+        getGenericSignature(): string;
+        getSignature(): string;
+        setModifiers(arg0: number): void;
+        get availableAnnotations(): $Object[];
+        get name(): string;
+        get declaringClass(): $CtClass;
+        get annotations(): $Object[];
+        get signature(): string;
+    }
+}

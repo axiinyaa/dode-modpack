@@ -1,14 +1,50 @@
-/locate biome minecraft:plains
-/tp @s 1065 103 386
-/data get block 1387 67 327
+/spark profiler open
+/spark profiler
+/spark profiler open
+/locate structure minecraft:village_plains
+/tp @s 400 ~ -1008
+/time set night
 /gamemode survival
 /gamemode creative
 /gamemode survival
 /gamemode creative
-/spark gcmonitor
-/spark gc
-/spark tps
-/spark profiler
-/spark profiler open
-/spark profiler
-/spark profiler open
+/probejs
+/kubejs reload
+/reload
+/season set mid_winter
+/locate structure minecraft:village_plains
+/tp @s -1456 ~ -480
+/tick rate 1000
+/tick rate 10000
+/season set mid_summer
+/gamemode creative
+/tick rate 20
+/effect give @s farmersdelight:comfort
+/gamemode survival
+/reload
+/gamemode creative
+/data get block
+/data get block -1460 65 -345
+/reload
+/gamemode survival
+/gamemode creative
+/reload
+/probejs
+/reload
+/gamemode survival
+/give @s minecraft:diamond_axe
+/gamemode creative
+/weather clear
+/reload
+/probejs
+/reload
+/gamemode survival
+/gamemode creative
+/kill @e
+/locate structure minecraft:village_snowy
+/tp @s -2144 ~ 736
+/locate poi supplementaries:cannon
+/gamemode spectator
+/gamemode creative
+/gamemode survival
+/gamemode creative

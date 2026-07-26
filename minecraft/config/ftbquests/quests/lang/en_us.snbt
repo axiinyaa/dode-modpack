@@ -1,0 +1,33 @@
+{
+	chapter.1277137CC2FBBA04.title: "dode modpack"
+	quest.1A51BF9FDEE93B4E.quest_desc: [
+		"Create is an obvious mod, but it's awesome and i want to play with it."
+		""
+		"also hate andesite collecting, so you're welcome."
+	]
+	quest.2B88699702A6370F.quest_desc: [
+		"Villagers have been changed, they now demand proper homes to live in, otherwise their prices will hike drastically."
+		""
+		"This is to not encourage trading halls but instead actual towns for villagers to live in."
+		""
+		"You can always check a villager's happiness using paper."
+	]
+	quest.4ACE033F058DF48E.quest_desc: [
+		"The elytra has been properly removed. This is to encourage other methods of transportations, like trains or airships."
+		""
+		"For now, have this awesome glider."
+	]
+	quest.56CD86B8DEC10727.quest_desc: ["Farmer's Delight expands Minecraft cooking significantly, many recipes require the use of the blocks and items from this mod."]
+	quest.749620475D74F794.quest_desc: [
+		"Hi! Welcome to the quick and dirty kitchen sink modpack I have made. This quest book is to introduce changes and quirks of said modpack."
+		""
+		"This is mostly focused on vanilla progression (i.e. no bosses or additional stages) but instead provides more focus to project creation and worldbuilding."
+		""
+		"I hope this book is helpful!"
+	]
+	task.2549274B777378CC.title: "farmer's delight"
+	task.256892C6E5C20C57.title: "create"
+	task.45343DCCFD6EB001.title: "No Elytra"
+	task.5583B4C4675B89B1.title: "villagers"
+	task.73F08B7FBCEA49CF.title: "welcome"
+}

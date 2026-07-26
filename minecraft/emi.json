@@ -1,6 +1,39 @@
 {
-  "favorites": [],
+  "favorites": [
+    {
+      "stack": "item:sliceanddice:slicer"
+    }
+  ],
   "lookup_history": [
+    "item:minecraft:elytra",
+    "item:surfacesamples:glowquartz_block",
+    "item:create:andesite_alloy",
+    "item:surfacesamples:glowquartz_shard",
+    "item:surfacesamples:andesite_chunk",
+    "item:minecraft:campfire",
+    {
+      "type": "item",
+      "id": "better_campfires:firewood",
+      "amount": 2
+    },
+    "item:farmersdelight:wheat_dough",
+    "item:theoneprobe:probe",
+    "item:burnt:burnt_campfire",
+    "item:farmersdelight:stove",
+    "item:minecraft:bread",
+    "item:farmersdelight:beef_patty",
+    "item:minecraft:smoker",
+    "item:create:blaze_burner",
+    {
+      "type": "item",
+      "id": "create:wheat_flour",
+      "amount": 15
+    },
+    "item:minecraft:wheat",
+    "item:farmersdelight:cutting_board",
+    "item:minecraft:cake",
+    "item:create:cinder_flour",
+    "item:supplementaries:key",
     {
       "type": "item",
       "id": "minecraft:bone",
@@ -20,13 +53,12 @@
       "amount": 50
     },
     "item:crittersandcompanions:diamond_dragonfly_armor",
-    "item:geore:iron_cluster",
-    "item:geore:iron_shard",
     "item:create:cardboard",
     "item:create:cardboard_block",
     "item:create:cardboard_helmet"
   ],
   "craft_history": [
+    "kubejs:dode_firewood_manual_only",
     "minecraft:iron_sword",
     "minecraft:iron_pickaxe",
     "minecraft:furnace",

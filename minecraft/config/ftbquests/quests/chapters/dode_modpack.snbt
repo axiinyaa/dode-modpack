@@ -1,0 +1,116 @@
+{
+	autofocus_id: "749620475D74F794"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dode_modpack"
+	group: ""
+	id: "1277137CC2FBBA04"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "749620475D74F794"
+			tasks: [{
+				id: "73F08B7FBCEA49CF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["749620475D74F794"]
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "2B88699702A6370F"
+			rewards: [{
+				id: "149C23D101DEED5F"
+				item: {
+					count: 1
+					id: "minecraft:paper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5583B4C4675B89B1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["749620475D74F794"]
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "56CD86B8DEC10727"
+			rewards: [
+				{
+					id: "2FE08F1EBC6067CF"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+				{
+					id: "7834669E354AFFC4"
+					item: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2549274B777378CC"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["749620475D74F794"]
+			icon: {
+				id: "create:andesite_alloy"
+			}
+			id: "1A51BF9FDEE93B4E"
+			rewards: [{
+				count: 64
+				id: "29D7B90BD21E1D0E"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "256892C6E5C20C57"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["749620475D74F794"]
+			icon: {
+				id: "minecraft:elytra"
+			}
+			id: "4ACE033F058DF48E"
+			rewards: [{
+				id: "20395CACB50A2376"
+				item: {
+					count: 1
+					id: "vc_gliders:paraglider_wood"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "45343DCCFD6EB001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+}
