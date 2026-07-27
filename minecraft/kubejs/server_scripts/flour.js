@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'minecraft:bread'})
     event.remove({ input: 'create:wheat_flour'})
     event.remove({ output: 'farmersdelight:wheat_dough'})
-    event.remove({ id: "farmersdelight:/crafting/wheat_dough_from_water"})
+    event.remove({ id: "farmersdelight:wheat_dough_from_water"})
     event.remove({ type: "create:milling", output: "create:wheat_flour"})
 
     event.recipes.farmersdelight.cutting(
@@ -73,4 +73,8 @@ ServerEvents.recipes(event => {
         'farmersdelight:wheat_dough',
         0.35
     )
+})
+
+RecipeViewerEvents.removeRecipes(event => {
+	// event.remove("farmersdelight:/crafting/wheat_dough_from_water")
 })

@@ -1,16 +1,16 @@
-[12:25:37] [INIT] KubeJS 2101.7.2-build.368; MC 2101 NeoForge
-[12:25:37] [INIT] Loaded plugins:
-[12:25:37] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
-[12:25:37] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
-[12:25:37] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
-[12:25:37] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[12:25:37] [INIT] - moe.wolfgirl.probejs.plugin.ProbeJSKJSPlugin
-[12:25:37] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[12:25:37] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[12:25:37] [INIT] - dev.propulsionteam.propulsionsimulated.compat.kubejs.PropulsionKubeJSPlugin
-[12:25:37] [INIT] - dev.propulsionteam.propulsionsimulated.compat.kubejs.PropulsionKubeJSPlugin
-[12:25:38] [INFO] startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
-[12:25:38] [INFO] Loaded script startup_scripts:main.js in 0.036 s
-[12:25:38] [INFO] Loaded 1/1 KubeJS startup scripts in 0.742 s with 0 errors and 0 warnings
-[12:25:38] [INFO] Validated 2 files in kubejs/assets/ in 10ms
-[12:25:38] [INFO] Validated 0 files in kubejs/data/ in 1ms
+[12:09:03] [INIT] KubeJS 2101.7.2-build.368; MC 2101 NeoForge
+[12:09:03] [INIT] Loaded plugins:
+[12:09:03] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[12:09:03] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[12:09:03] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[12:09:03] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[12:09:03] [INIT] - moe.wolfgirl.probejs.plugin.ProbeJSKJSPlugin
+[12:09:03] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[12:09:03] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[12:09:03] [INIT] - dev.propulsionteam.propulsionsimulated.compat.kubejs.PropulsionKubeJSPlugin
+[12:09:03] [INIT] - dev.propulsionteam.propulsionsimulated.compat.kubejs.PropulsionKubeJSPlugin
+[12:09:04] [INFO] startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
+[12:09:04] [INFO] Loaded script startup_scripts:main.js in 0.035 s
+[12:09:04] [INFO] Loaded 1/1 KubeJS startup scripts in 0.924 s with 0 errors and 0 warnings
+[12:09:04] [INFO] Validated 2 files in kubejs/assets/ in 1ms
+[12:09:04] [INFO] Validated 0 files in kubejs/data/ in 0ms

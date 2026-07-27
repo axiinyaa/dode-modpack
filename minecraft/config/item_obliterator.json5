@@ -17,7 +17,10 @@
   //    Example: minecraft:diamond
   "blacklisted_items": [
     "create:dough",
-    "!theoneprobe:.*"
+    "!theoneprobe:.*",
+    "farmersdelight:rope",
+    "travelertoolbelt:belt",
+    "travelertoolbelt:copper_belt"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

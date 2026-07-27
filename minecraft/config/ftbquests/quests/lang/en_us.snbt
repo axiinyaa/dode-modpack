@@ -12,6 +12,8 @@
 		""
 		"You can always check a villager's happiness using paper."
 	]
+	quest.46B0BFACF964C8D2.quest_desc: ["Storage is important, use your &ecurio&r slots to do so!"]
+	quest.46B0BFACF964C8D2.title: "storage"
 	quest.4ACE033F058DF48E.quest_desc: [
 		"The elytra has been properly removed. This is to encourage other methods of transportations, like trains or airships."
 		""

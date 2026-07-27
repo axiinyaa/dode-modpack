@@ -1,0 +1,18 @@
+filename = 'meow-1.0.0-neoforge-1.21.1.jar'
+name = 'Meow!'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = 'e9e4c18018e99d6ea43a1219a2ead13bff0c7ed5d95600cc7b7d132061d2c8542e0a9e9b6dd95a705daab1c15427d818f174ece7f58837e3b51020eff9a59405'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xE4vWy6F/versions/B510JxGz/meow-1.0.0-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'xE4vWy6F'
+version = 'B510JxGz'

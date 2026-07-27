@@ -112,5 +112,22 @@
 			x: 0.0d
 			y: 2.0d
 		}
+		{
+			id: "46B0BFACF964C8D2"
+			tasks: [
+				{
+					id: "43BD1C8B000B76CC"
+					item: { count: 1, id: "yyzsbackpack:iron_backpack" }
+					type: "item"
+				}
+				{
+					id: "733738598EF9C224"
+					item: { count: 1, id: "travelertoolbelt:belt" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
 	]
 }
