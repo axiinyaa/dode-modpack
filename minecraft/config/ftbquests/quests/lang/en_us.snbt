@@ -1,35 +1,49 @@
 {
 	chapter.1277137CC2FBBA04.title: "dode modpack"
-	quest.1A51BF9FDEE93B4E.quest_desc: [
-		"Create is an obvious mod, but it's awesome and i want to play with it."
+	quest.0D851CEB3103D713.quest_desc: [
+		"Hostile mobs do not spawn on the surface anymore. This is to reduce annoyances and help relax the difficulty."
 		""
-		"also hate andesite collecting, so you're welcome."
+		"However they spawn perfectly fine underground."
 	]
+	quest.0D851CEB3103D713.title: "Mobs?"
+	quest.1A51BF9FDEE93B4E.quest_desc: ["do i really need to explain anything?"]
+	quest.1A51BF9FDEE93B4E.title: "Create"
 	quest.2B88699702A6370F.quest_desc: [
 		"Villagers have been changed, they now demand proper homes to live in, otherwise their prices will hike drastically."
 		""
-		"This is to not encourage trading halls but instead actual towns for villagers to live in."
+		"This is to encourage actual towns for villagers to live in."
 		""
 		"You can always check a villager's happiness using paper."
 	]
-	quest.46B0BFACF964C8D2.quest_desc: ["Storage is important, use your &ecurio&r slots to do so!"]
-	quest.46B0BFACF964C8D2.title: "storage"
+	quest.2B88699702A6370F.title: "Villagers"
+	quest.46B0BFACF964C8D2.quest_desc: ["You'll want plenty of storage, and the easiest way to do that is with backpacks and tool belts."]
+	quest.46B0BFACF964C8D2.title: "Portable Storage"
 	quest.4ACE033F058DF48E.quest_desc: [
 		"The elytra has been properly removed. This is to encourage other methods of transportations, like trains or airships."
 		""
-		"For now, have this awesome glider."
+		"However, as an alternative, you can use gliders, which you can upgrade with increasing tiers of ore."
 	]
+	quest.4ACE033F058DF48E.title: "Elytra?"
 	quest.56CD86B8DEC10727.quest_desc: ["Farmer's Delight expands Minecraft cooking significantly, many recipes require the use of the blocks and items from this mod."]
+	quest.56CD86B8DEC10727.title: "Farmer's Delight"
 	quest.749620475D74F794.quest_desc: [
 		"Hi! Welcome to the quick and dirty kitchen sink modpack I have made. This quest book is to introduce changes and quirks of said modpack."
 		""
 		"This is mostly focused on vanilla progression (i.e. no bosses or additional stages) but instead provides more focus to project creation and worldbuilding."
 		""
 		"I hope this book is helpful!"
+		""
+		"(TIP: Use EMI on the right hand side of your inventory to quickly view recipes and other crucial information.)"
 	]
-	task.2549274B777378CC.title: "farmer's delight"
-	task.256892C6E5C20C57.title: "create"
-	task.45343DCCFD6EB001.title: "No Elytra"
+	quest.749620475D74F794.title: "Welcome!!"
+	quest.7C939F7360F11AC7.quest_desc: [
+		"Making bread is more than just three wheat, it requires you to make dough, which in turn requires you to make flour from wheat, a more laborious for sure."
+		""
+		"However, a lot of it can be especially automated with create, yielding in more dough and bread than doing the task manually."
+		""
+		"Use the EMI (Menu on the left hand side of the inventory) to view the recipe tree in order to create bread either manually or automated."
+	]
+	quest.7C939F7360F11AC7.title: "Bread"
 	task.5583B4C4675B89B1.title: "villagers"
 	task.73F08B7FBCEA49CF.title: "welcome"
 }

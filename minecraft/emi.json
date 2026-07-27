@@ -5,6 +5,22 @@
     }
   ],
   "lookup_history": [
+    "item:minecraft:bread",
+    "#item:minecraft:fishes",
+    "item:crittersandcompanions:koi_fish",
+    "#item:minecraft:ocelot_food",
+    "item:create:wheat_flour",
+    "item:farmersdelight:wheat_dough",
+    "item:vc_gliders:paraglider_wood",
+    "item:vc_gliders:paraglider_netherite",
+    "item:vc_gliders:paraglider_diamond",
+    "item:vc_gliders:paraglider_iron",
+    "item:vc_gliders:paraglider_gold",
+    "item:vc_gliders:reinforced_paper",
+    "item:minecraft:leather",
+    "item:vc_gliders:reinforced_paper_iron",
+    "item:create:mechanical_press",
+    "item:sliceanddice:slicer",
     "item:travelertoolbelt:iron_belt",
     "item:yyzsbackpack:gold_backpack",
     "item:travelertoolbelt:gold_belt",
@@ -40,13 +56,10 @@
     "item:aeronautics:andesite_propeller",
     "item:farmersdelight:rope",
     "item:farmersdelight:straw",
-    "item:farmersdelight:wheat_dough",
     "item:vc_gliders:reinforced_paper_diamond",
-    "item:vc_gliders:paraglider_diamond",
     "item:create:brass_ingot",
     "item:create:precision_mechanism",
     "item:create:electron_tube",
-    "item:numismatics:bank_terminal",
     "item:create:polished_rose_quartz",
     "item:a_man_with_plushies:plush_box",
     "item:minecraft:elytra",
@@ -62,15 +75,9 @@
     },
     "item:burnt:burnt_campfire",
     "item:farmersdelight:stove",
-    "item:minecraft:bread",
     "item:farmersdelight:beef_patty",
     "item:minecraft:smoker",
     "item:create:blaze_burner",
-    {
-      "type": "item",
-      "id": "create:wheat_flour",
-      "amount": 15
-    },
     "item:minecraft:wheat",
     "item:farmersdelight:cutting_board",
     "item:minecraft:cake",
@@ -87,7 +94,6 @@
     "item:minecraft:copper_block",
     "item:minecraft:amethyst_shard",
     "item:create:zinc_ingot",
-    "item:minecraft:leather",
     {
       "type": "item",
       "id": "minecraft:raw_copper",
@@ -99,6 +105,11 @@
     "item:create:cardboard_helmet"
   ],
   "craft_history": [
+    "minecraft:wooden_axe",
+    "minecraft:wooden_pickaxe",
+    "minecraft:crafting_table",
+    "minecraft:stick",
+    "minecraft:oak_planks",
     "kubejs:dode_firewood_manual_only",
     "minecraft:iron_sword",
     "minecraft:iron_pickaxe",
@@ -107,15 +118,14 @@
     "minecraft:stone_sword",
     "minecraft:stone_axe",
     "minecraft:stone_pickaxe",
-    "minecraft:wooden_axe",
-    "minecraft:wooden_pickaxe",
-    "minecraft:stick",
-    "minecraft:crafting_table",
-    "minecraft:mangrove_planks",
-    "minecraft:oak_planks"
+    "minecraft:mangrove_planks"
   ],
   "recipe_defaults": {
-    "added": [],
+    "added": [
+      "farmersdelight:kjs/62jfauf12xts0n88v2cabdcaa",
+      "minecraft:kjs/bread",
+      "kubejs:dode_dough_manual_only"
+    ],
     "tags": {},
     "resolutions": {},
     "disabled": []

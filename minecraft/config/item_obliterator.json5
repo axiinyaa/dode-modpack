@@ -20,7 +20,12 @@
     "!theoneprobe:.*",
     "farmersdelight:rope",
     "travelertoolbelt:belt",
-    "travelertoolbelt:copper_belt"
+    "travelertoolbelt:copper_belt",
+    "vc_gliders:reinforced_paper_iron",
+    "vc_gliders:reinforced_paper_gold",
+    "vc_gliders:reinforced_paper_diamond",
+    "vc_gliders:reinforced_paper_netherite",
+    "vc_gliders:paraglider_gold"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

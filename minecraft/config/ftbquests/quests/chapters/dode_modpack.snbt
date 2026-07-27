@@ -10,6 +10,14 @@
 	quests: [
 		{
 			id: "749620475D74F794"
+			rewards: [{
+				id: "3341C9CF965DACB2"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "73F08B7FBCEA49CF"
 				type: "checkmark"
@@ -44,28 +52,26 @@
 				id: "farmersdelight:cooking_pot"
 			}
 			id: "56CD86B8DEC10727"
-			rewards: [
+			rewards: [{
+				id: "6DF52362F830D5BF"
+				item: {
+					count: 1
+					id: "minecraft:cake"
+				}
+				type: "item"
+			}]
+			tasks: [
 				{
-					id: "2FE08F1EBC6067CF"
-					item: {
-						count: 1
-						id: "minecraft:campfire"
-					}
+					id: "4B2A1556CEF78019"
+					item: { count: 1, id: "farmersdelight:stove" }
 					type: "item"
 				}
 				{
-					id: "7834669E354AFFC4"
-					item: {
-						count: 1
-						id: "farmersdelight:cooking_pot"
-					}
+					id: "0F7065B48E9F6C15"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "2549274B777378CC"
-				type: "checkmark"
-			}]
 			x: -2.5d
 			y: -0.5d
 		}
@@ -75,21 +81,33 @@
 				id: "create:andesite_alloy"
 			}
 			id: "1A51BF9FDEE93B4E"
-			rewards: [{
-				count: 64
-				id: "29D7B90BD21E1D0E"
-				item: {
-					count: 1
-					id: "create:andesite_alloy"
+			rewards: [
+				{
+					count: 5
+					id: "4B0D452C7C170773"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
 				}
+				{
+					count: 5
+					id: "56DB462EA53A2013"
+					item: {
+						count: 1
+						id: "create:andesite_casing"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "523166483DA24BB0"
+				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			tasks: [{
-				id: "256892C6E5C20C57"
-				type: "checkmark"
-			}]
-			x: 2.5d
-			y: -0.5d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["749620475D74F794"]
@@ -98,22 +116,33 @@
 			}
 			id: "4ACE033F058DF48E"
 			rewards: [{
-				id: "20395CACB50A2376"
+				id: "1C36BDC921BA7447"
 				item: {
 					count: 1
-					id: "vc_gliders:paraglider_wood"
+					id: "supplementaries:confetti_popper"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "45343DCCFD6EB001"
-				type: "checkmark"
+				id: "2CD2776BE22CD2ED"
+				item: { count: 1, id: "vc_gliders:paraglider_wood" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 2.0d
 		}
 		{
+			dependencies: ["749620475D74F794"]
 			id: "46B0BFACF964C8D2"
+			rewards: [{
+				count: 5
+				id: "3F3E9EB9595E2ECA"
+				item: {
+					count: 1
+					id: "storagedrawers:oak_full_drawers_1"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "43BD1C8B000B76CC"
@@ -122,12 +151,59 @@
 				}
 				{
 					id: "733738598EF9C224"
-					item: { count: 1, id: "travelertoolbelt:belt" }
+					item: { count: 1, id: "travelertoolbelt:iron_belt" }
 					type: "item"
 				}
 			]
 			x: 2.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["749620475D74F794"]
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:zombie"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0D851CEB3103D713"
+			rewards: [{
+				id: "31FEA2B1AFB0CFEF"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DCF30C8FAB96BFE"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"56CD86B8DEC10727"
+				"1A51BF9FDEE93B4E"
+			]
+			id: "7C939F7360F11AC7"
+			rewards: [{
+				id: "6EAB548F7A9E29E7"
+				item: {
+					count: 1
+					id: "farmersdelight:bacon_sandwich"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4380FFBFBE924316"
+				item: { count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
 		}
 	]
 }

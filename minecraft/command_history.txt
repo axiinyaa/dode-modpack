@@ -1,13 +1,5 @@
 /gamemode survival
 /gamemode creative
-/kill @e
-/locate structure minecraft:village_snowy
-/tp @s -2144 ~ 736
-/locate poi supplementaries:cannon
-/gamemode spectator
-/gamemode creative
-/gamemode survival
-/gamemode creative
 /gamemode survival
 /gamemode creative
 /gamemode survival
@@ -48,3 +40,11 @@
 /setworldspawn
 /gamemode survival
 /gamemode creative
+/reload
+/gamemode survival
+/gamemode creative
+/weather rain
+/gamemode spectator
+/locate structure minecraft:village_plains
+/tp @s -1008 ~ -1504
+/reload

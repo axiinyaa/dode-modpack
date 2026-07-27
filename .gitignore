@@ -1,1 +1,9 @@
 minecraft/saves/*
+minecraft/crash-reports/*
+minecraft/logs/*
+minecraft/local/*
+minecraft/xaero/*
+minecraft/debug/*
+minecraft/dynamic-data-pack-cache/*
+minecraft/dynamic-resource-pack-cache/*
+minecraft/options.txt
