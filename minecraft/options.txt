@@ -15,7 +15,7 @@ prioritizeChunkUpdates:0
 fullscreen:false
 gamma:0.5
 graphicsMode:1
-guiScale:3
+guiScale:2
 maxFps:120
 mipmapLevels:4
 narrator:0
@@ -134,7 +134,7 @@ key_key.curios.open.desc:key.keyboard.g
 key_key.fast_placement:key.keyboard.unknown
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
-key_key.mute_microphone:key.keyboard.comma
+key_key.mute_microphone:key.keyboard.m
 key_key.disable_voice_chat:key.keyboard.n
 key_key.hide_icons:key.keyboard.h
 key_key.voice_chat:key.keyboard.v
@@ -169,6 +169,10 @@ key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
 key_treechop.key.toggle_chopping:key.keyboard.unknown
 key_treechop.key.cycle_sneak_behavior:key.keyboard.unknown
 key_treechop.key.open_settings_overlay:key.keyboard.n
+key_key.trashslot.toggle:key.keyboard.t
+key_key.trashslot.toggle_lock:key.keyboard.unknown
+key_key.trashslot.delete:key.keyboard.delete
+key_key.trashslot.delete_all:key.keyboard.delete:SHIFT
 key_gui.xaero_open_map:key.keyboard.m
 key_gui.xaero_open_settings:key.keyboard.right.bracket
 key_gui.xaero_world_map_server_settings:key.keyboard.unknown
@@ -214,11 +218,12 @@ key_key.jade.show_recipes:key.keyboard.keypad.3
 key_key.jade.show_uses:key.keyboard.keypad.4
 key_key.jade.narrate:key.keyboard.keypad.5
 key_key.jade.show_details:key.keyboard.left.shift
+key_key.unionlib.open_union_inventory:key.keyboard.u
 key_key.createrailgrinding.catch:key.keyboard.space:SHIFT
 key_key.createrailgrinding.grind_jump:key.keyboard.space
 key_key.createrailgrinding.grind_crouch:key.keyboard.left.shift
 key_key.entityculling.toggle:key.keyboard.unknown
-soundCategory_master:1.0
+soundCategory_master:0.1672185430463576
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
