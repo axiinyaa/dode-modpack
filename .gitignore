@@ -7,3 +7,12 @@ minecraft/debug/*
 minecraft/dynamic-data-pack-cache/*
 minecraft/dynamic-resource-pack-cache/*
 minecraft/options.txt
+minecraft/ponders_watched.json
+minecraft/TrashSlotSaveState.json
+minecraft/usercache.json
+minecraft/usernamecache.json
+minecraft/command_history.txt
+minecraft/emi.json
+minecraft/.mixin.out
+minecraft/.sable
+minecraft/.vscode
