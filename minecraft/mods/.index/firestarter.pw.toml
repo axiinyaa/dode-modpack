@@ -1,0 +1,18 @@
+filename = 'fire_starter-1.0.1.jar'
+name = 'FireStarter'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fire_starter-1.0.1.jar'
+
+[download]
+hash = 'dfbee4f49c9bc1c9e22126892d8784cb927f56ac'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8399478
+project-id = 1603594

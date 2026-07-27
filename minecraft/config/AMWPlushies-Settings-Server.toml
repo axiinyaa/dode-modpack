@@ -16,7 +16,7 @@
 
 [plushies_starter_kit]
 	#Change how many plush boxes the player starts with when joining a world for the first time
-	numberofplushboxestheplayerstartswith = 1.0
+	numberofplushboxestheplayerstartswith = 0.0
 	#Change how many golden plush boxes the player starts with when joining a world for the first time
 	numberofgoldenplushboxestheplayerstartswith = 0.0
 

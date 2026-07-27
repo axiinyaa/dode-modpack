@@ -5,6 +5,20 @@
     }
   ],
   "lookup_history": [
+    "item:fire_starter:fire_starter",
+    {
+      "type": "item",
+      "id": "supplementaries:rope",
+      "amount": 4
+    },
+    "item:farmersdelight:flint_knife",
+    "item:minecraft:gravel",
+    {
+      "type": "item",
+      "id": "minecraft:rotten_flesh",
+      "amount": 16
+    },
+    "item:minecraft:amethyst_shard",
     "item:minecraft:bread",
     "#item:minecraft:fishes",
     "item:crittersandcompanions:koi_fish",
@@ -37,11 +51,6 @@
     "item:supplementaries:bunting_orange",
     "item:supplementaries:bunting_black",
     "item:farmersdelight:safety_net",
-    {
-      "type": "item",
-      "id": "supplementaries:rope",
-      "amount": 64
-    },
     "item:create:rope_pulley",
     "item:farmersdelight:rope_fence",
     "item:aeronautics:wooden_propeller",
@@ -63,10 +72,7 @@
     "item:create:polished_rose_quartz",
     "item:a_man_with_plushies:plush_box",
     "item:minecraft:elytra",
-    "item:surfacesamples:glowquartz_block",
     "item:create:andesite_alloy",
-    "item:surfacesamples:glowquartz_shard",
-    "item:surfacesamples:andesite_chunk",
     "item:minecraft:campfire",
     {
       "type": "item",
@@ -92,7 +98,6 @@
     "item:createpropulsion:platinum_ingot",
     "item:create:crushed_raw_platinum",
     "item:minecraft:copper_block",
-    "item:minecraft:amethyst_shard",
     "item:create:zinc_ingot",
     {
       "type": "item",
@@ -105,26 +110,35 @@
     "item:create:cardboard_helmet"
   ],
   "craft_history": [
+    "kubejs:dode_firewood_manual_only",
     "minecraft:wooden_axe",
     "minecraft:wooden_pickaxe",
-    "minecraft:crafting_table",
     "minecraft:stick",
+    "minecraft:crafting_table",
+    "minecraft:birch_planks",
+    "fire_starter:fire_starter",
+    "kubejs:dode_dough_manual_only",
+    "farmersdelight:flint_knife",
+    "minecraft:mangrove_planks",
+    "yyzsbackpack:iron_backpack",
+    "minecraft:wooden_shovel",
+    "farmersdelight:cutting_board",
+    "minecraft:wheat",
+    "minecraft:spruce_planks",
+    "minecraft:stone_axe",
     "minecraft:oak_planks",
-    "kubejs:dode_firewood_manual_only",
     "minecraft:iron_sword",
     "minecraft:iron_pickaxe",
     "minecraft:furnace",
     "minecraft:torch",
     "minecraft:stone_sword",
-    "minecraft:stone_axe",
-    "minecraft:stone_pickaxe",
-    "minecraft:mangrove_planks"
+    "minecraft:stone_pickaxe"
   ],
   "recipe_defaults": {
     "added": [
-      "farmersdelight:kjs/62jfauf12xts0n88v2cabdcaa",
+      "kubejs:dode_dough_manual_only",
       "minecraft:kjs/bread",
-      "kubejs:dode_dough_manual_only"
+      "farmersdelight:kjs/62jfauf12xts0n88v2cabdcaa"
     ],
     "tags": {},
     "resolutions": {},
