@@ -26,7 +26,6 @@
     "vc_gliders:reinforced_paper_diamond",
     "vc_gliders:reinforced_paper_netherite",
     "vc_gliders:paraglider_gold",
-    "!minecraft:diamond_.*",
     "steeladdon:crude_iron",
     "artifacts:everlasting_beef",
     "artifacts:eternal_steak"
