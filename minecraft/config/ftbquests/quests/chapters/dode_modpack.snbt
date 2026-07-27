@@ -5,10 +5,14 @@
 	filename: "dode_modpack"
 	group: ""
 	id: "1277137CC2FBBA04"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "ribbits:toadstool"
+			}
 			id: "749620475D74F794"
 			rewards: [{
 				id: "3341C9CF965DACB2"
@@ -47,7 +51,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["749620475D74F794"]
+			dependencies: ["5157B67752259A17"]
 			icon: {
 				id: "farmersdelight:cooking_pot"
 			}
@@ -72,7 +76,7 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: -5.5d
 			y: -0.5d
 		}
 		{
@@ -128,8 +132,8 @@
 				item: { count: 1, id: "vc_gliders:paraglider_wood" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["749620475D74F794"]
@@ -155,33 +159,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["749620475D74F794"]
-			icon: {
-				components: {
-					"!ftbquests:icon": { }
-					"ftbquests:entity_face": "minecraft:zombie"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "0D851CEB3103D713"
-			rewards: [{
-				id: "31FEA2B1AFB0CFEF"
-				item: {
-					count: 1
-					id: "supplementaries:confetti_popper"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2DCF30C8FAB96BFE"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: 1.5d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -203,7 +182,65 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["749620475D74F794"]
+			id: "5157B67752259A17"
+			rewards: [{
+				count: 12
+				id: "0780B19B22F38A4E"
+				item: {
+					count: 1
+					id: "minecraft:beef"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "0B1614CBEE40C7A7"
+					item: { count: 1, id: "better_campfires:firewood" }
+					type: "item"
+				}
+				{
+					id: "5C1BF465535EE5DC"
+					item: { count: 1, id: "fire_starter:fire_starter" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1A51BF9FDEE93B4E"]
+			id: "50A5A98C2F87108D"
+			rewards: [{
+				id: "7783D018F97A59F2"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75110C2ABB3AE7AF"
+				item: { count: 1, id: "steeladdon:steel_ingot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5157B67752259A17"]
+			id: "754BF1592D40E41B"
+			tasks: [{
+				id: "34B1D57BE09DA8F7"
+				item: { count: 1, id: "minecraft:blast_furnace" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
 		}
 	]
 }

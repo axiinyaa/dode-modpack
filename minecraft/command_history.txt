@@ -3,8 +3,6 @@
 /gamemode survival
 /gamemode creative
 /gamemode survival
-/gamemode creative
-/gamemode survival
 /gamerule keepInventory falsde
 /gamerule keepInventory falsew
 /gamerule keepInventory false
@@ -47,4 +45,6 @@
 /gamemode spectator
 /locate structure minecraft:village_plains
 /tp @s -1008 ~ -1504
+/reload
+/gamemode creative
 /reload

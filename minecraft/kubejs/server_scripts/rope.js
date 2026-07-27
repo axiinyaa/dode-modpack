@@ -1,4 +1,3 @@
-
 ServerEvents.recipes(event => {
     event.remove({ output: 'supplementaries:rope'})
     event.remove({ output: 'comforts:rope_and_nail'})

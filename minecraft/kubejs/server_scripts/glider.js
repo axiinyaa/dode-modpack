@@ -1,5 +1,4 @@
 ServerEvents.recipes(event => {
-    event.remove({ output: 'vc_gliders:reinforced_paper'})
     event.remove({ output: 'vc_gliders:paraglider_wood'})
     event.remove({ output: 'vc_gliders:paraglider_iron'})
     event.remove({ output: 'vc_gliders:paraglider_diamond'})
@@ -21,7 +20,7 @@ ServerEvents.recipes(event => {
             'S S'
         ],
         {
-            'P': 'vc_gliders:reinforced_paper',
+            'P': 'farmersdelight:canvas',
             'R': 'supplementaries:rope',
             'S': 'minecraft:stick'
         }
@@ -30,12 +29,12 @@ ServerEvents.recipes(event => {
     event.shaped(
         'vc_gliders:paraglider_iron',
         [
-            'PPP',
+            'IPI',
             'RSR',
-            'SIS'
+            'S S'
         ],
         {
-            'P': 'vc_gliders:reinforced_paper',
+            'P': 'farmersdelight:canvas',
             'R': 'supplementaries:rope',
             'S': 'minecraft:stick',
             'I': 'minecraft:iron_ingot'
@@ -45,12 +44,12 @@ ServerEvents.recipes(event => {
     event.shaped(
         'vc_gliders:paraglider_diamond',
         [
-            'PPP',
+            'IPI',
             'RSR',
-            'SIS'
+            'S S'
         ],
         {
-            'P': 'vc_gliders:reinforced_paper',
+            'P': 'farmersdelight:canvas',
             'R': 'supplementaries:rope',
             'S': 'minecraft:stick',
             'I': 'minecraft:diamond'
@@ -60,12 +59,12 @@ ServerEvents.recipes(event => {
     event.shaped(
         'vc_gliders:paraglider_netherite',
         [
-            'PPP',
+            'IPI',
             'RSR',
-            'SIS'
+            'S S'
         ],
         {
-            'P': 'vc_gliders:reinforced_paper',
+            'P': 'farmersdelight:canvas',
             'R': 'supplementaries:rope',
             'S': 'minecraft:stick',
             'I': 'minecraft:netherite_ingot'

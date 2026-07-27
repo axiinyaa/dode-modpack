@@ -1,6 +1,9 @@
 ServerEvents.recipes(event => {
     event.remove({ output: 'better_campfires:firewood'})
     event.remove({ output: 'minecraft:campfire'})
+    event.remove({ type: 'minecraft:smelting', input: '#c:foods' })
+    event.remove({ type: 'minecraft:smoking', input: '#c:foods' })
+
     event.shapeless(
         Item.of('better_campfires:firewood', 2),
         [
