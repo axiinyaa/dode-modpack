@@ -1,6 +1,6 @@
 [mechanics]
 	#If true, players are heavily penalized or prevented from breaking specific blocks without the correct flint tools.
-	enableStrictMining = true
+	enableStrictMining = false
 	#The chance (0.0 to 1.0) of successfully extracting a flint shard when right-clicking stone with flint.
 	# Default: 0.15
 	# Range: 0.0 ~ 1.0

@@ -5,6 +5,9 @@
     }
   ],
   "lookup_history": [
+    "item:flintrequired:flint_shard",
+    "item:flintrequired:flint_knife",
+    "item:better_starting_armors:chainmail",
     "item:vc_gliders:paraglider_wood",
     "item:railways:light_gray_conductor_cap",
     "item:railways:magenta_conductor_cap",
@@ -30,7 +33,6 @@
     "item:minecraft:stone_sword",
     "item:minecraft:stone_hoe",
     "item:minecraft:stone_axe",
-    "item:flintrequired:flint_shard",
     "item:mld:bamboo_sticks",
     "item:mld:cherry_sticks",
     "item:mld:mangrove_sticks",
@@ -55,7 +57,6 @@
     "item:burnt:rainbow_flag",
     "item:burnt:baked_apple",
     "#item:farmersdelight:tools/knives",
-    "item:flintrequired:flint_knife",
     {
       "type": "item",
       "id": "farmersdelight:straw",
