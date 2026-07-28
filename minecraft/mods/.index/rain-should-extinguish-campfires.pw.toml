@@ -1,0 +1,18 @@
+filename = 'rsec-neoforge-1.21.1-1.1.jar'
+name = 'Rain should extinguish campfires'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1-1.21.1-neoforge'
+
+[download]
+hash = '083f49cac9173819dee689671b2901bdaf7a62b2a4eba63a3023998d826849b423f9598c6642f2ed0356f80b80edee5475b22a9047240f37a54341962621ecbe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XFk4dAJX/versions/NKbtWc8O/rsec-neoforge-1.21.1-1.1.jar'
+
+[update.modrinth]
+mod-id = 'XFk4dAJX'
+version = 'NKbtWc8O'

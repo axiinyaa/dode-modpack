@@ -81,6 +81,9 @@
     "block_properties": false,
     "mod_name": true
   },
+  "unlitcampfire": {
+    "campfireinfo": true
+  },
   "corpse": {
     "corpse": true
   },

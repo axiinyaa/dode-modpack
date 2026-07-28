@@ -1,3 +1,6 @@
+ServerEvents.tags('item', event => {
+    event.remove('c:foods/dough', ['create:dough'])
+})
 
 ServerEvents.recipes(event => {
     event.remove({ output: 'minecraft:cake' })
@@ -43,10 +46,10 @@ ServerEvents.recipes(event => {
         'farmersdelight:wheat_dough',
         [
             "create:wheat_flour",
-            "minecraft:water_bucket"
+            "#c:buckets/water"
         ]
     )
-    .keepIngredient("minecraft:water_bucket")
+    .keepIngredient("#c:buckets/water")
     .id('dode_dough_manual_only')
 
     event.shapeless(
@@ -71,7 +74,15 @@ ServerEvents.recipes(event => {
     event.smoking(
         'minecraft:bread',
         'farmersdelight:wheat_dough',
-        0.35
+        0.35,
+        300
+    )
+
+    event.campfireCooking(
+        'minecraft:bread',
+        'farmersdelight:wheat_dough',
+        0.35,
+        600
     )
 })
 

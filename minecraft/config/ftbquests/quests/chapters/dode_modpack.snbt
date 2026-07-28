@@ -4,6 +4,9 @@
 	default_quest_shape: ""
 	filename: "dode_modpack"
 	group: ""
+	icon: {
+		id: "ribbits:toadstool"
+	}
 	id: "1277137CC2FBBA04"
 	images: [ ]
 	order_index: 0
@@ -22,12 +25,13 @@
 				}
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "73F08B7FBCEA49CF"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -0.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["749620475D74F794"]
@@ -51,9 +55,9 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["5157B67752259A17"]
+			dependencies: ["126B8F0E6611485D"]
 			icon: {
-				id: "farmersdelight:cooking_pot"
+				id: "farmersdelight:stove"
 			}
 			id: "56CD86B8DEC10727"
 			rewards: [{
@@ -76,11 +80,11 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: -0.5d
+			x: 10.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["749620475D74F794"]
+			dependencies: ["126B8F0E6611485D"]
 			icon: {
 				id: "create:andesite_alloy"
 			}
@@ -104,14 +108,39 @@
 					}
 					type: "item"
 				}
+				{
+					count: 3
+					id: "2A19BCC3E17E6E4F"
+					item: {
+						count: 1
+						id: "create:belt_connector"
+					}
+					type: "item"
+				}
+				{
+					id: "4717FA5383E372F5"
+					item: {
+						count: 1
+						id: "create:large_water_wheel"
+					}
+					type: "item"
+				}
+				{
+					id: "0CACFB39C399A3C9"
+					item: {
+						count: 1
+						id: "create:super_glue"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "523166483DA24BB0"
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.5d
+			x: 13.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["749620475D74F794"]
@@ -132,11 +161,11 @@
 				item: { count: 1, id: "vc_gliders:paraglider_wood" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["749620475D74F794"]
+			dependencies: ["126B8F0E6611485D"]
 			id: "46B0BFACF964C8D2"
 			rewards: [{
 				count: 5
@@ -159,14 +188,11 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 10.0d
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"56CD86B8DEC10727"
-				"1A51BF9FDEE93B4E"
-			]
+			dependencies: ["56CD86B8DEC10727"]
 			id: "7C939F7360F11AC7"
 			rewards: [{
 				id: "6EAB548F7A9E29E7"
@@ -181,11 +207,14 @@
 				item: { count: 1, id: "minecraft:bread" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -2.5d
+			x: 10.0d
+			y: -5.5d
 		}
 		{
-			dependencies: ["749620475D74F794"]
+			dependencies: ["5E869C412819C168"]
+			icon: {
+				id: "minecraft:campfire"
+			}
 			id: "5157B67752259A17"
 			rewards: [{
 				count: 12
@@ -209,11 +238,11 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: 5.0d
 			y: -0.5d
 		}
 		{
-			dependencies: ["1A51BF9FDEE93B4E"]
+			dependencies: ["46970615E0FEFCBB"]
 			id: "50A5A98C2F87108D"
 			rewards: [{
 				id: "7783D018F97A59F2"
@@ -228,18 +257,205 @@
 				item: { count: 1, id: "steeladdon:steel_ingot" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.0d
+			x: 16.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5157B67752259A17"]
 			id: "754BF1592D40E41B"
+			rewards: [
+				{
+					count: 5
+					id: "5862B594B491412F"
+					item: {
+						count: 1
+						id: "minecraft:raw_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 20
+					id: "5F7C6464C5A952D1"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "34B1D57BE09DA8F7"
 				item: { count: 1, id: "minecraft:blast_furnace" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["749620475D74F794"]
+			id: "5E869C412819C168"
+			tasks: [
+				{
+					id: "6ADD837F665B11BA"
+					item: { count: 1, id: "flintrequired:flint_knife" }
+					type: "item"
+				}
+				{
+					id: "0A1F729F17FD6483"
+					item: { count: 1, id: "flintrequired:flint_axe" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["754BF1592D40E41B"]
+			id: "126B8F0E6611485D"
+			rewards: [{
+				id: "0F8E7F641D2EB571"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C142538947D03A3"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1A51BF9FDEE93B4E"]
+			id: "46970615E0FEFCBB"
+			tasks: [
+				{
+					id: "3EFA77A756D09146"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "47AEFA02E9FE333A"
+					item: { count: 1, id: "create:mechanical_press" }
+					type: "item"
+				}
+				{
+					id: "19FC97425AA47F4B"
+					item: { count: 1, id: "create:millstone" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"46970615E0FEFCBB"
+				"126B8F0E6611485D"
+			]
+			id: "33314DC7DD1FF37F"
+			rewards: [{
+				count: 5
+				id: "7284B91B02B3A038"
+				item: {
+					count: 1
+					id: "create:brass_casing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2201D93382818CF1"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["33314DC7DD1FF37F"]
+			id: "6A6E57BA2A2CD8BB"
+			rewards: [
+				{
+					id: "608E60EB3251343C"
+					item: {
+						count: 1
+						id: "aeronautics:adjustable_burner"
+					}
+					type: "item"
+				}
+				{
+					count: 30
+					id: "15E1F2FC066EFA58"
+					item: {
+						count: 1
+						id: "aeronautics:white_envelope"
+					}
+					type: "item"
+				}
+				{
+					id: "144C4B79F10A1352"
+					item: {
+						count: 1
+						id: "aeronautics:aviators_goggles"
+					}
+					type: "item"
+				}
+				{
+					id: "5E7E6EF25575000A"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F6B0024FF523442"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33314DC7DD1FF37F"]
+			id: "634103EB222F5E25"
+			rewards: [
+				{
+					id: "3ABE8D7D7C512102"
+					item: {
+						count: 1
+						id: "railways:red_conductor_cap"
+					}
+					type: "item"
+				}
+				{
+					count: 30
+					id: "0DBF93F9A97D4B78"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					type: "item"
+				}
+				{
+					id: "1831157594AAA582"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07564373C80BF567"
+				item: { count: 1, id: "create:track_station" }
+				type: "item"
+			}]
+			x: 18.0d
 			y: 1.5d
 		}
 	]

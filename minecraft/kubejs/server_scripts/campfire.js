@@ -1,8 +1,7 @@
 ServerEvents.recipes(event => {
     event.remove({ output: 'better_campfires:firewood'})
     event.remove({ output: 'minecraft:campfire'})
-    event.remove({ type: 'minecraft:smelting', input: '#c:foods' })
-    event.remove({ type: 'minecraft:smoking', input: '#c:foods' })
+    event.remove({ output: 'minecraft:torch'})
 
     event.shapeless(
         Item.of('better_campfires:firewood', 2),
@@ -22,6 +21,20 @@ ServerEvents.recipes(event => {
             Item.of('better_campfires:firewood', 4)
         ],
         // '' // sound
+    )
+
+    event.campfireCooking(
+        'minecraft:torch',
+        'minecraft:stick',
+        0.1,
+        10
+    )
+
+    event.campfireCooking(
+        'minecraft:leather',
+        'minecraft:rotten_flesh',
+        0.60,
+        1200
     )
 })
 

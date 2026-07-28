@@ -1,5 +1,7 @@
 {
-	chapter.1277137CC2FBBA04.title: "dode modpack"
+	chapter.1277137CC2FBBA04.title: "Progression"
+	quest.126B8F0E6611485D.quest_desc: ["Iron! Harvest and smelt some with a copper pickaxe."]
+	quest.126B8F0E6611485D.title: "Iron Age"
 	quest.1A51BF9FDEE93B4E.quest_desc: ["Andesite is the backbone for automation, obvious or not!"]
 	quest.1A51BF9FDEE93B4E.title: "Create"
 	quest.2B88699702A6370F.quest_desc: [
@@ -10,6 +12,9 @@
 		"You can always check a villager's happiness using paper."
 	]
 	quest.2B88699702A6370F.title: "Villagers"
+	quest.33314DC7DD1FF37F.quest_desc: ["Brass can be used to make more complex machines, create steam engines and a whole lot more. "]
+	quest.46970615E0FEFCBB.quest_desc: ["Create \"Create\" machines in order to do some automation!"]
+	quest.46970615E0FEFCBB.title: "Create Machines"
 	quest.46B0BFACF964C8D2.quest_desc: ["You'll want plenty of storage, and the easiest way to do that is with backpacks and tool belts."]
 	quest.46B0BFACF964C8D2.title: "Portable Storage"
 	quest.4ACE033F058DF48E.quest_desc: [
@@ -23,18 +28,30 @@
 		""
 		"Use an alloy of coal and iron under a heated mixer to create nuggets, or use a blaze cake to create whole ingots instead."
 	]
-	quest.5157B67752259A17.quest_desc: ["You can create a campfire using 4 firewood, placing them down on a block, and starting it up using a firestarter. This will give an early source of cooking food until you obtain a stove."]
+	quest.5157B67752259A17.quest_desc: [
+		"You can create a campfire using 4 firewood, placing it down on a block, and finally lighting it up using a firestarter."
+		""
+		"This will give an early source of cooking food until you obtain a stove."
+	]
 	quest.5157B67752259A17.title: "Campfire!!"
 	quest.56CD86B8DEC10727.quest_desc: ["Farmer's Delight expands Minecraft cooking significantly, many recipes require the use of the blocks and items from this mod."]
 	quest.56CD86B8DEC10727.title: "Farmer's Delight"
+	quest.5E869C412819C168.quest_desc: [
+		"We all start somewhere, and that somewhere is flint tools."
+		""
+		"Gather flint using crude brushes, knap those into flint shards and then use them to make flint tools."
+		""
+		"You can gather straw from grass using the knife, or flax and use them to make future tools."
+	]
+	quest.5E869C412819C168.title: "Sticks and Stones"
+	quest.634103EB222F5E25.quest_desc: ["trains are awesome."]
+	quest.634103EB222F5E25.title: "Trains!"
+	quest.6A6E57BA2A2CD8BB.quest_desc: ["Using an assembler you can create simulated structures affected by physics, which can be used to make actual ships, vehicles, airships, you name it!"]
+	quest.6A6E57BA2A2CD8BB.title: "Take to the Skies"
 	quest.749620475D74F794.quest_desc: [
-		"Hi! Welcome to the dode modpack! This quest book is to introduce changes and quirks."
+		"Hi! Welcome to the dode modpack! This quest book is to help with progression, and provide goals and guidance."
 		""
-		"This is mostly focused on vanilla progression (i.e. no bosses or additional stages) but instead provides more focus to project creation and worldbuilding."
-		""
-		"I hope this book is helpful!"
-		""
-		"(TIP: Use EMI on the right hand side of your inventory to quickly view recipes and other crucial information.)"
+		"(TIP: Click on any &9Task&r items to view it's recipes, if it has one.)"
 	]
 	quest.749620475D74F794.title: "Welcome!!"
 	quest.754BF1592D40E41B.quest_desc: ["Use a blast furnace to smelt down ores. This can be crafted using the campfire."]

@@ -1,31 +1,3 @@
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamerule keepInventory falsde
-/gamerule keepInventory falsew
-/gamerule keepInventory false
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/gamerule keepInventory false
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/gamemode survival
-/clear
-/reload
-/relooad
-/reload
-/gamemode survival
 /create
 /reload
 /kubejs hand
@@ -47,4 +19,32 @@
 /tp @s -1008 ~ -1504
 /reload
 /gamemode creative
+/reload
+/probejs
+/reload
+/playsound minecraft:item.firecharge.use
+/reload
+/gamemode survival
+/reload
+/give @s burnt:firestarter
+/give @s fire_starter:fire_starter
+/reload
+/give @s fire_starter:fire_starter
+/reload
+/gamemode survival
+/give @s minecraft:campfire
+/give @s minecraft:stick 64
+/weather rain
+/reload
+/gamemode creative
+/gamemode survival
+/give @s steeladdon:steel_shovel
+/give @s cake
+/gamemode creative
+/gamemode survival
+/give @s minecraft:knowledge_book
+/gamemode creative
+/gamemode survival
+/reload
+/kubejs hand
 /reload

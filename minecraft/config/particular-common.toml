@@ -111,7 +111,7 @@
 			#Minimum fall distance (in blocks) required to trigger water splash particles
 			# Default: 0.0
 			# Range: 0.0 ~ 100.0
-			minFallDistance = 0.0
+			minFallDistance = 1.0
 			#Whether small splashes should emit water droplet particles
 			smallDroplets = false
 			#Opacity of water and lava splash particles

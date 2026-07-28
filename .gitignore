@@ -16,3 +16,6 @@ minecraft/emi.json
 minecraft/.mixin.out
 minecraft/.sable
 minecraft/.vscode
+minecraft/.probe/*
+minecraft/journeymap/*
+minecraft/options.txt

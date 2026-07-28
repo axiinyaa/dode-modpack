@@ -1,0 +1,111 @@
+{
+    // Whether Enchiridion's categorical enchantment system is enabled.
+    // 
+    // Categories modify the applicability of enchantments, making them mutually exclusive with ones of the same category.
+    "enable_categories": true,
+    // Config values relating to the Enchanting Table.
+    "enchanting_table": {
+        // Whether Enchiridion should modify enchanting table logic.
+        // 
+        // If enabled, the enchanting table will always provide you with a specific amount of enchantments when
+        // rolling on the enchanting table depending on the enchant level, with a chance to get an extra enchantment.
+        // 
+        // If categories are enabled, the same category will never roll twice.
+        "modify_enchanting_table_logic": true,
+        // Fields regarding the Enchanting Table's costs and what is gained from those costs.
+        "cost_logic": {
+            // A multiplier for determining the cost of a singular enchant.
+            "cost_multiplier": 0.67,
+            // A multiplier for determining which level to enchant at, relative to the unmodified enchantment cost.
+            "effectiveness_multiplier": 0.75,
+            // The minimum level for an Enchanting Table enchant to be considered a medium level enchant.
+            // Medium level enchants by default will roll for two enchantments.
+            // 
+            // If modify_enchanting_table_logic is disabled, this will not come into effect.
+            "medium_level_minimum": 7,
+            // The minimum level for an Enchanting Table enchant to be considered a high level enchant.
+            // High level enchants by default will roll for three enchantments.
+            // 
+            // If modify_enchanting_table_logic is disabled, this will not come into effect.
+            "high_level_minimum": 15
+        },
+        // Whether Enchiridion should modify the enchanting table to allow levelling up enchanted items.
+        "allow_enchanting_table_level_ups": true
+    },
+    // Config values relating to Villagers' trades.
+    "villager_trades": {
+        // Whether Enchiridion should modify specific villager profession trades.
+        // NOTICE: Existing villager trades will not be updated to match these config settings.
+        "enable_modified_trades": {
+            // Whether Librarian trades should be modified by Enchiridion.
+            // 
+            // When modified by Enchiridion, Librarian book trades before Master profession level are
+            // biome variant dependent Primaries, Secondaries and Tertiaries.
+            // 
+            // At Master level, Librarians will trade either Unbreaking or Mending depending
+            // on their biome variant.
+            // 
+            // Book prices are far less swingy, gossip affects book prices less.
+            // Additionally, Librarians will generally trade lower levelled enchantments.
+            // At least one Book trade is guaranteed to exist at each new profession level.
+            "librarian": true,
+            // Whether Armorer trades should be modified by Enchiridion.
+            // 
+            // When modified by Enchiridion, Armorer armor trades will use specific
+            // enchantments from the Librarian pool, with expert trades enchanting with
+            // this pool at a very low level, and master trades enchanting with this pool
+            // at a low level.
+            "armorer": true,
+            // Whether Toolsmith trades should be modified by Enchiridion.
+            // 
+            // When modified by Enchiridion, Toolsmith tool trades will use specific
+            // enchantments from the Librarian pool, with expert trades enchanting with
+            // this pool at a very low level, and master trades enchanting with this pool
+            // at a low level.
+            "toolsmith": true,
+            // Whether Weaponsmith trades should be modified by Enchiridion.
+            // 
+            // When modified by Enchiridion, Weaponsmith weapon trades will use specific
+            // enchantments from the Librarian pool, with expert trades enchanting with
+            // this pool at a very low level, and master trades enchanting with this pool
+            // at a low level.
+            "weaponsmith": true
+        },
+        // Whether Enchiridion should simplify the Experimental Datapack's Armorer trades.
+        // NOTICE: Existing villager trades will not be updated to match this config setting.
+        // 
+        // When enabled whilst using the Experimental Feature Toggle...
+        // Expert Armorer Villagers will always trade two pieces of either Iron or Chainmail Armor
+        // depending on their biome variant.
+        // Master Armorer villagers will always trade two specific pieces of Diamond armor
+        // using Enchiridion's enchantment pool for their biome variant.
+        // 
+        // This will automatically be disabled if Enchiridion Armorer trades are disabled.
+        "simplify_experimental_armorer_trades": true
+    },
+    // Overrides for setting the visuals of enchantment categories.
+    // 
+    // This can affect the text color and the book color/model for the enchanted book.
+    // You may either specify a string to set both text and book color,
+    // or an object with 'text_color', 'book_color' and 'item_model_index' fields.
+    // 
+    // 'item_model_index' may be used through the 'enchiridion:first_enchantment_category' model override predicate.
+    // 
+    // If an 'item_model_index' field is not specified, a generic model will be used, which is tinted based on the
+    // 'book_color' field or the 'color' field if the 'book_color' field is not specified.
+    // 
+    // Examples:
+    // {
+    // 	"enchiridion:primary": "red",
+    // 	"enchiridion:secondary": {
+    // 		"text_color": "#00FF00",
+    // 		"book_color": "#00AA00"
+    // 	},
+    // 	"enchiridion:tertiary": {
+    // 		"text_color": "#00AA00"
+    // 		"item_model_index": 0.6
+    // 	}
+    // }
+    "category_visual_overrides": {
+    }
+}
