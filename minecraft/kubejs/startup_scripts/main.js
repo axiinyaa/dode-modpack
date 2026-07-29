@@ -1,3 +1,7 @@
-// Visit the wiki for more info - https://kubejs.com/
-console.info('Hello, World! (Loaded startup example script)')
-
+ItemEvents.modification(event => {
+    event.modify('flintrequired:flint_pickaxe', item => {
+        item.tier = tier => {
+            tier.incorrectBlocksForDropsTag = "minecraft:incorrect_for_wooden_tool"
+        }
+    })
+})

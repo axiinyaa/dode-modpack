@@ -1,20 +1,29 @@
 {
 	chapter.1277137CC2FBBA04.title: "Progression"
+	chapter.79A4920ADC8F3192.title: "Gameplay Changes"
 	quest.126B8F0E6611485D.quest_desc: ["Iron! Harvest and smelt some with a copper pickaxe."]
 	quest.126B8F0E6611485D.title: "Iron Age"
+	quest.1630173DD17417F6.quest_desc: ["Create an antique atlas, a handy map for adding waypoints, put it in your offhand for it to act like a minimap."]
 	quest.1A51BF9FDEE93B4E.quest_desc: ["Andesite is the backbone for automation, obvious or not!"]
 	quest.1A51BF9FDEE93B4E.title: "Create"
-	quest.33314DC7DD1FF37F.quest_desc: ["Brass can be used to make more complex machines, create steam engines and a whole lot more. "]
+	quest.294A25A9F0FC738E.quest_desc: ["This chapter is to introduce changes of note that are not part of the progression!"]
+	quest.294A25A9F0FC738E.title: "Introduction"
+	quest.33314DC7DD1FF37F.quest_desc: [
+		"Brass is important for more complex machines!"
+		""
+		"Create some by alloying copper and brass under a heated mixer."
+	]
+	quest.3D71E2CE13A40083.quest_desc: [
+		"The elytra is removed in favour of different methods of transport, such as trains or airships..."
+		""
+		"However, you can create a glider to get around! Use heat sources, such as fire to glide upwards."
+	]
+	quest.3D71E2CE13A40083.title: "Elytra?"
+	quest.43DB31912E19F5F0.quest_desc: ["Light up the portal at the center of the ancient city using a fire starter, make sure to get rid of any tendrils first!"]
 	quest.46970615E0FEFCBB.quest_desc: ["Create \"Create\" machines in order to do some automation!"]
 	quest.46970615E0FEFCBB.title: "Create Machines"
 	quest.46B0BFACF964C8D2.quest_desc: ["You'll want plenty of storage, and the easiest way to do that is with backpacks and tool belts."]
 	quest.46B0BFACF964C8D2.title: "Portable Storage"
-	quest.4ACE033F058DF48E.quest_desc: [
-		"The elytra has been properly removed. This is to encourage other methods of transportations, like trains or airships."
-		""
-		"However, as an alternative, you can use gliders, which you can upgrade with increasing tiers of ore."
-	]
-	quest.4ACE033F058DF48E.title: "Elytra?"
 	quest.50A5A98C2F87108D.quest_desc: [
 		"An alternative to diamonds, these require you to use create to well... create them!"
 		""
@@ -26,14 +35,18 @@
 		"This will give an early source of cooking food until you obtain a stove."
 	]
 	quest.5157B67752259A17.title: "Campfire!!"
+	quest.5316C10A68D5A5D9.quest_desc: [
+		"The next key to progression is finding an ancient city, this is the only way to enter the nether!"
+		""
+		"You can easily find one using an explorer's compass."
+	]
+	quest.5316C10A68D5A5D9.title: "Sneak!"
 	quest.56CD86B8DEC10727.quest_desc: ["Farmer's Delight expands Minecraft cooking significantly, many recipes require the use of the blocks and items from this mod."]
 	quest.56CD86B8DEC10727.title: "Farmer's Delight"
 	quest.5E869C412819C168.quest_desc: [
-		"We all start somewhere, and that somewhere is flint tools."
+		"Gather flint to create primitive tools, wood tools is no more..."
 		""
-		"Gather flint using crude brushes, knap those into flint shards and then use them to make flint tools."
-		""
-		"You can gather straw from grass using the knife, or flax and use them to make future tools."
+		"Finding flint annoying? Use four gravel to craft it!"
 	]
 	quest.5E869C412819C168.title: "Sticks and Stones"
 	quest.634103EB222F5E25.quest_desc: ["trains are awesome."]
@@ -47,13 +60,10 @@
 	]
 	quest.749620475D74F794.title: "Welcome!!"
 	quest.754BF1592D40E41B.quest_desc: ["Use a blast furnace to smelt down ores. This can be crafted using the campfire."]
-	quest.7C939F7360F11AC7.quest_desc: [
-		"Making bread is more than just three wheat, it requires you to make dough, which in turn requires you to make flour from wheat, a more laborious for sure."
-		""
-		"However, a lot of it can be especially automated with create, yielding in more dough and bread than doing the task manually."
-		""
-		"Use the EMI (Menu on the right hand side of the inventory) to view the recipe tree in order to create bread either manually or automated."
-	]
+	quest.7C939F7360F11AC7.quest_desc: ["Bread making is more complex, a fun challenge to make either manually, or automated with create."]
 	quest.7C939F7360F11AC7.title: "Bread"
+	task.035686D916A1EF36.title: "Find Ancient City"
+	task.09BA144E5365D906.title: "welcome"
+	task.0DEFF03B0DDE3D9E.title: "The Nether"
 	task.73F08B7FBCEA49CF.title: "welcome"
 }

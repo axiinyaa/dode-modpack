@@ -1,0 +1,64 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gameplay_changes"
+	group: ""
+	icon: {
+		id: "create:cogwheel"
+	}
+	id: "79A4920ADC8F3192"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ribbits:toadstool"
+			}
+			id: "294A25A9F0FC738E"
+			size: 1.5d
+			tasks: [{
+				id: "09BA144E5365D906"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3D71E2CE13A40083"
+			rewards: [{
+				id: "58043ED84F720116"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4898B208A9D09ABA"
+				item: { count: 1, id: "reliable_gliders:glider" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "1630173DD17417F6"
+			rewards: [{
+				id: "72CB1B89079A40E7"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B03AAFDC2E5AC1B"
+				item: { count: 1, id: "aa4-atlas:antique_atlas" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+}

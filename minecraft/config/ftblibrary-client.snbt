@@ -28,6 +28,11 @@
 				x: 1
 				y: 1
 			}
+			"ftbultimine:config": {
+				enabled: true
+				x: 3
+				y: 1
+			}
 			"ftblibrary:toggle/gamemode": {
 				enabled: true
 				x: 0
@@ -35,7 +40,7 @@
 			}
 			"ftblibrary:config": {
 				enabled: true
-				x: 3
+				x: 4
 				y: 1
 			}
 			"ftblibrary:toggle/day": {

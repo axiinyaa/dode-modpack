@@ -118,30 +118,8 @@
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.5d
 			y: -3.0d
-		}
-		{
-			dependencies: ["5E869C412819C168"]
-			icon: {
-				id: "minecraft:elytra"
-			}
-			id: "4ACE033F058DF48E"
-			rewards: [{
-				id: "1C36BDC921BA7447"
-				item: {
-					count: 1
-					id: "supplementaries:confetti_popper"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2CD2776BE22CD2ED"
-				item: { components: { "ftbquests:missing_item": "vc_gliders:paraglider_wood" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 2.0d
 		}
 		{
 			dependencies: ["126B8F0E6611485D"]
@@ -221,7 +199,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["46970615E0FEFCBB"]
+			dependencies: ["33314DC7DD1FF37F"]
 			id: "50A5A98C2F87108D"
 			rewards: [{
 				id: "7783D018F97A59F2"
@@ -236,8 +214,8 @@
 				item: { count: 1, id: "steeladdon:steel_ingot" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: -5.5d
+			x: 17.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5157B67752259A17"]
@@ -310,6 +288,14 @@
 		{
 			dependencies: ["1A51BF9FDEE93B4E"]
 			id: "46970615E0FEFCBB"
+			rewards: [{
+				id: "650C593D4284B963"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3EFA77A756D09146"
@@ -327,13 +313,13 @@
 					type: "item"
 				}
 			]
-			x: 16.0d
+			x: 17.5d
 			y: -3.0d
 		}
 		{
 			dependencies: [
 				"46970615E0FEFCBB"
-				"126B8F0E6611485D"
+				"43DB31912E19F5F0"
 			]
 			id: "33314DC7DD1FF37F"
 			rewards: [{
@@ -350,7 +336,7 @@
 				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			x: 16.0d
+			x: 17.5d
 			y: -0.5d
 		}
 		{
@@ -396,7 +382,7 @@
 				item: { count: 1, id: "simulated:physics_assembler" }
 				type: "item"
 			}]
-			x: 18.0d
+			x: 19.5d
 			y: -2.5d
 		}
 		{
@@ -434,8 +420,48 @@
 				item: { count: 1, id: "create:track_station" }
 				type: "item"
 			}]
-			x: 18.0d
+			x: 19.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["126B8F0E6611485D"]
+			id: "5316C10A68D5A5D9"
+			tasks: [{
+				id: "035686D916A1EF36"
+				structure: "minecraft:ancient_city"
+				type: "structure"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5316C10A68D5A5D9"]
+			id: "43DB31912E19F5F0"
+			rewards: [
+				{
+					id: "3C3B9D6E1858A1A4"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+					type: "item"
+				}
+				{
+					id: "4E6615F1D2396FB5"
+					item: {
+						count: 1
+						id: "create:empty_blaze_burner"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "0DEFF03B0DDE3D9E"
+				type: "dimension"
+			}]
+			x: 15.0d
+			y: -0.5d
 		}
 	]
 }

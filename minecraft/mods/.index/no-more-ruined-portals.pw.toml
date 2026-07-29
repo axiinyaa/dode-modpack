@@ -1,0 +1,34 @@
+filename = 'no-more-ruined-portals-1.0.1.jar'
+name = 'No More Ruined Portals'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.18.2',
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1+mod'
+
+[download]
+hash = '3a4faa4d72af9238bd5286e0b7b4d1fdc2d56421a12de9a8a5c4f85db961013722b627f334523bd0f3d0b80656834d457e298c0c55e74699e3d5c974fc806ac8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Vf9nOP5y/versions/WExSBD2f/no-more-ruined-portals-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'Vf9nOP5y'
+version = 'WExSBD2f'

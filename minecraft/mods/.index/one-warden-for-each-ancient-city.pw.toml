@@ -1,0 +1,18 @@
+filename = 'blockwardens-NeoForge-1.21.1-1.0.0.jar'
+name = 'One Warden For Each Ancient City'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '4f67a1f842d4a0e3a45c1e23ec4cdecc385814b2191b5f226ccea2faaf775d4544e9fe2d33082c75452ccdf0c73517a8ed6977b8935868b97b44172309f8cd7e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/sE7oU7h7/versions/lQmiItCr/blockwardens-NeoForge-1.21.1-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'sE7oU7h7'
+version = 'lQmiItCr'
