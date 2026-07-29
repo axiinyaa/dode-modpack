@@ -39,7 +39,7 @@
 				item: { count: 1, id: "reliable_gliders:glider" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -58,7 +58,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -1.5d
 		}
 	]
 }

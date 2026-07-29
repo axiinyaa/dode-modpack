@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
     )
 
     event.shaped(
-        'minecraft:iron_helmet',
+        'minecraft:iron_boots',
         [
             '   ',
             'I I',
