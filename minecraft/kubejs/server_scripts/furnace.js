@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
             'CCC'
         ],
         {
-            'C': 'minecraft:cobbled_deepslate',
+            'C': 'minecraft:cobblestone',
             'F': 'minecraft:campfire'
         }
     )

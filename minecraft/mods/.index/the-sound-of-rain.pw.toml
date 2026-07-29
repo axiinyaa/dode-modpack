@@ -1,0 +1,18 @@
+filename = 'soundofrain-0.6.jar'
+name = 'The Sound of Rain'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'soundofrain-0.6.1.jar'
+
+[download]
+hash = 'd12d241e718395e99c531ad16d03424da2ca7ae4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8513990
+project-id = 1302230
