@@ -4,14 +4,6 @@
 	quest.126B8F0E6611485D.title: "Iron Age"
 	quest.1A51BF9FDEE93B4E.quest_desc: ["Andesite is the backbone for automation, obvious or not!"]
 	quest.1A51BF9FDEE93B4E.title: "Create"
-	quest.2B88699702A6370F.quest_desc: [
-		"Villagers have been changed, they now demand proper homes to live in, otherwise their prices will hike drastically."
-		""
-		"This is to encourage actual towns for villagers to live in."
-		""
-		"You can always check a villager's happiness using paper."
-	]
-	quest.2B88699702A6370F.title: "Villagers"
 	quest.33314DC7DD1FF37F.quest_desc: ["Brass can be used to make more complex machines, create steam engines and a whole lot more. "]
 	quest.46970615E0FEFCBB.quest_desc: ["Create \"Create\" machines in order to do some automation!"]
 	quest.46970615E0FEFCBB.title: "Create Machines"
@@ -63,6 +55,5 @@
 		"Use the EMI (Menu on the right hand side of the inventory) to view the recipe tree in order to create bread either manually or automated."
 	]
 	quest.7C939F7360F11AC7.title: "Bread"
-	task.5583B4C4675B89B1.title: "villagers"
 	task.73F08B7FBCEA49CF.title: "welcome"
 }

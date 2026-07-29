@@ -30,6 +30,19 @@ ServerEvents.recipes(event => {
         10
     )
 
+    event.shaped(
+        'minecraft:torch',
+        [
+            ' C ',
+            ' S ',
+            '   '
+        ],
+        {
+            'C': '#minecraft:coals',
+            'S': 'minecraft:stick'
+        }
+    )
+
     event.campfireCooking(
         'minecraft:leather',
         'minecraft:rotten_flesh',

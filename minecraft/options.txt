@@ -132,6 +132,7 @@ key_supplementaries.keybind.quiver:key.keyboard.v
 key_key.corpse.death_history:key.keyboard.u
 key_key.curios.open.desc:key.keyboard.g
 key_key.fast_placement:key.keyboard.unknown
+key_key.reliable_gliders.deploy:key.keyboard.space
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m

@@ -3,17 +3,18 @@ const itemList = [
     "farmersdelight:rope",
     "travelertoolbelt:belt",
     "travelertoolbelt:copper_belt",
-    "vc_gliders:paraglider_gold",
     "steeladdon:crude_iron",
     "artifacts:everlasting_beef",
     "artifacts:eternal_steak",
     "farmersdelight:flint_knife",
     "flintrequired:crude_bow",
     "flintrequired:plant_fiber",
-    "/vc_gliders:reinforced_paper.*/",
     "/flintrequired:flint_.*_head/",
     "/flintrequired:.*clay_bucket/",
-    "/minecraft:wooden_.*/"
+    "/minecraft:wooden_.*/",
+    "flintrequired:crude_brush",
+    "flintrequired:flint_shard",
+    'farmersdelight:skillet'
 ]
 
 const items = []

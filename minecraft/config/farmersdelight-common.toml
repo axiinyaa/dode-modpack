@@ -32,9 +32,9 @@
 
 [overrides]
 	#If enabled, soups and stews from Minecraft will grant Nourishment when eaten, similar to meals from this mod.
-	enableVanillaSoupExtraEffects = true
+	enableVanillaSoupExtraEffects = false
 	#If enabled, Rabbit Stew will be given improved food stats, to match its crafting cost.
-	enableRabbitStewBuff = true
+	enableRabbitStewBuff = false
 	#If enabled, Pumpkin Pie will require the user to sneak to place it down as a block.
 	enablePumpkinPieSneakToPlace = false
 	#If enabled, the Dispenser will be able to operate a Cutting Board in front of itself, using stored items as cutting tools.

@@ -1,32 +1,3 @@
-/create
-/reload
-/kubejs hand
-/reload
-/weather rain
-/locate structure terralith:fortified_village
-/tp @s -2720 ~ -2768
-/spark profiler
-/spark profiler open
-/setworldspawn
-/gamemode survival
-/gamemode creative
-/reload
-/gamemode survival
-/gamemode creative
-/weather rain
-/gamemode spectator
-/locate structure minecraft:village_plains
-/tp @s -1008 ~ -1504
-/reload
-/gamemode creative
-/reload
-/probejs
-/reload
-/playsound minecraft:item.firecharge.use
-/reload
-/gamemode survival
-/reload
-/give @s burnt:firestarter
 /give @s fire_starter:fire_starter
 /reload
 /give @s fire_starter:fire_starter
@@ -47,4 +18,33 @@
 /gamemode survival
 /reload
 /kubejs hand
+/reload
+/gamemode sur
+/gamemode survival
+/probejs dump
+/probejs
+/reload
+/gamemode survival
+/reload
+/gamemode survival
+/gamemode creative
+/reload
+/gamemode survival
+/reload
+/kubejs hand
+/reload
+/probejs
+/reload
+/reloasd
+/reload
+/give @s create:hand_crank
+/reload
+/effect give Axiinyaa farmersdelight:nourishment
+/reload
+/kubejs hand
+/reload
+/effect clear
+/reloasd
+/reload
+/effect clear
 /reload

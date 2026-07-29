@@ -1,19 +1,8 @@
 ServerEvents.recipes(event => {
-    event.remove({ output: 'vc_gliders:paraglider_wood'})
-    event.remove({ output: 'vc_gliders:paraglider_iron'})
-    event.remove({ output: 'vc_gliders:paraglider_diamond'})
-    event.remove({ output: 'vc_gliders:paraglider_netherite'})
-
-    event.shapeless(
-        'vc_gliders:reinforced_paper',
-        [
-            'minecraft:leather',
-            'minecraft:paper'
-        ]
-    )
+    event.remove({ output: 'reliable_gliders:glider' })
 
     event.shaped(
-        'vc_gliders:paraglider_wood',
+        'reliable_gliders:glider',
         [
             'PPP',
             'RSR',
@@ -25,49 +14,12 @@ ServerEvents.recipes(event => {
             'S': 'minecraft:stick'
         }
     )
+})
 
-    event.shaped(
-        'vc_gliders:paraglider_iron',
-        [
-            'IPI',
-            'RSR',
-            'S S'
-        ],
-        {
-            'P': 'farmersdelight:canvas',
-            'R': 'supplementaries:rope',
-            'S': 'minecraft:stick',
-            'I': 'minecraft:iron_ingot'
-        }
-    )
-
-    event.shaped(
-        'vc_gliders:paraglider_diamond',
-        [
-            'IPI',
-            'RSR',
-            'S S'
-        ],
-        {
-            'P': 'farmersdelight:canvas',
-            'R': 'supplementaries:rope',
-            'S': 'minecraft:stick',
-            'I': 'minecraft:diamond'
-        }
-    )
-
-    event.shaped(
-        'vc_gliders:paraglider_netherite',
-        [
-            'IPI',
-            'RSR',
-            'S S'
-        ],
-        {
-            'P': 'farmersdelight:canvas',
-            'R': 'supplementaries:rope',
-            'S': 'minecraft:stick',
-            'I': 'minecraft:netherite_ingot'
-        }
-    )
+ServerEvents.tags('block', event => {
+    event.add('reliable_gliders:updraft_blocks', [
+        'burnt:smoldering_grass_start',
+        'burnt:smoldering_grass',
+        'burnt:smoldering_leaves'
+    ])
 })

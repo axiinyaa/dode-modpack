@@ -2,13 +2,90 @@
   "favorites": [
     {
       "stack": "item:sliceanddice:slicer"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "minecraft:melon_slice",
+        "amount": 59
+      }
     }
   ],
   "lookup_history": [
+    "item:minecraft:bread",
+    "item:farmersdelight:wheat_dough",
+    {
+      "type": "item",
+      "id": "minecraft:beetroot",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "farmersdelight:tomato",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "minecraft:golden_carrot",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "minecraft:carrot",
+      "amount": 64
+    },
+    "item:minecraft:bowl",
+    "item:farmersdelight:roast_chicken_block",
+    "item:farmersdelight:mushroom_rice",
+    "item:farmersdelight:roasted_mutton_chops",
+    "item:farmersdelight:cabbage",
+    "item:farmersdelight:rotten_tomato",
+    {
+      "type": "item",
+      "id": "farmersdelight:onion",
+      "amount": 64
+    },
+    "item:farmersdelight:melon_juice",
+    {
+      "type": "item",
+      "id": "minecraft:melon_slice",
+      "amount": 64
+    },
+    "item:supplementaries:candy",
+    "item:minecraft:cooked_rabbit",
+    "item:farmersdelight:glow_berry_custard",
+    "item:farmersdelight:fruit_salad",
+    "item:farmersdelight:melon_popsicle",
+    [
+      "item:farmersdelight:pumpkin_slice{\"cuisinedelight:ingredient\":{}}",
+      "item:farmersdelight:tomato{\"cuisinedelight:ingredient\":{}}",
+      "item:minecraft:kelp{\"cuisinedelight:ingredient\":{}}",
+      "item:minecraft:beetroot{\"cuisinedelight:ingredient\":{}}",
+      "item:minecraft:chorus_fruit{\"cuisinedelight:ingredient\":{}}",
+      "item:farmersdelight:onion{\"cuisinedelight:ingredient\":{}}",
+      "#item:minecraft:fruits",
+      "#item:c:mushrooms",
+      "#item:minecraft:carrots",
+      "#item:c:foods/cabbage"
+    ],
+    "item:cuisinedelight:vegetable_fried_rice",
+    "item:cuisinedelight:cuisine_skillet",
+    "item:cuisinedelight:fried_meat_and_melon",
+    "item:cuisinedelight:suspicious_mix",
+    "item:farmersdelight:skillet",
+    "item:farmersdelight:cooking_pot",
+    "item:minecraft:flint",
+    "item:farmersdelight:straw",
+    "item:supplementaries:rope",
+    "item:reliable_gliders:glider",
+    "item:minecraft:torch",
+    "item:farmersdelight:canvas",
+    "item:minecraft:flint_and_steel",
+    "#item:dode:plant_fibers",
+    "item:flintrequired:crude_brush",
     "item:flintrequired:flint_shard",
     "item:flintrequired:flint_knife",
     "item:better_starting_armors:chainmail",
-    "item:vc_gliders:paraglider_wood",
     "item:railways:light_gray_conductor_cap",
     "item:railways:magenta_conductor_cap",
     "item:railways:brown_conductor_cap",
@@ -45,7 +122,6 @@
     "item:flintrequired:flint_knife_head",
     "item:flintrequired:flint_hoe_head",
     "item:flintrequired:flint_axe_head",
-    "item:flintrequired:crude_brush",
     {
       "type": "item",
       "id": "flintrequired:plant_fiber",
@@ -57,18 +133,11 @@
     "item:burnt:rainbow_flag",
     "item:burnt:baked_apple",
     "#item:farmersdelight:tools/knives",
-    {
-      "type": "item",
-      "id": "farmersdelight:straw",
-      "amount": 5
-    },
     "item:mld:stones",
     "item:flintrequired:flint_shovel",
     "item:flintrequired:flint_pickaxe",
     "item:flintrequired:flint_hoe",
     "item:minecraft:water_bucket",
-    "item:farmersdelight:wheat_dough",
-    "#item:dode:plant_fibers",
     "item:create:dough",
     "#item:c:foods/dough",
     "item:flintrequired:crude_bow",
@@ -76,31 +145,22 @@
     "item:supplementaries:flax",
     "item:farmersdelight:flint_knife",
     "item:flintrequired:flint_arrow",
-    "item:minecraft:flint_and_steel",
     "item:flintrequired:flint_pickaxe_head",
     "item:steeladdon:steel_sheet",
     "item:steeladdon:steel_ingot",
     "item:just_sink:sink",
     "#item:minecraft:planks",
-    "item:minecraft:torch",
-    {
-      "type": "item",
-      "id": "minecraft:bread",
-      "amount": 6
-    },
     "item:minecraft:soul_campfire",
     "item:minecraft:soul_torch",
     "item:minecraft:campfire",
     "item:supplementaries:ash",
     "item:farmersdelight:stove",
-    "item:farmersdelight:cooking_pot",
     {
       "type": "item",
       "id": "minecraft:beef",
       "amount": 64
     },
     "item:minecraft:furnace",
-    "item:farmersdelight:canvas",
     "item:artifacts:eternal_steak",
     "item:minecraft:cooked_beef",
     "item:steeladdon:steel_nugget",
@@ -118,10 +178,6 @@
       "amount": 2
     },
     "item:travelertoolbelt:iron_belt",
-    "item:vc_gliders:paraglider_iron",
-    "item:vc_gliders:paraglider_diamond",
-    "item:vc_gliders:paraglider_netherite",
-    "item:supplementaries:rope",
     "item:fire_starter:fire_starter",
     "item:better_campfires:firewood",
     "item:create:depot",
@@ -142,10 +198,7 @@
     "item:crittersandcompanions:koi_fish",
     "#item:minecraft:ocelot_food",
     "item:create:wheat_flour",
-    "item:vc_gliders:paraglider_gold",
-    "item:vc_gliders:reinforced_paper",
     "item:minecraft:leather",
-    "item:vc_gliders:reinforced_paper_iron",
     "item:sliceanddice:slicer",
     "item:yyzsbackpack:gold_backpack",
     "item:travelertoolbelt:gold_belt",
@@ -174,7 +227,6 @@
     "item:aeronautics:smart_propeller",
     "item:aeronautics:andesite_propeller",
     "item:farmersdelight:rope",
-    "item:vc_gliders:reinforced_paper_diamond",
     "item:create:precision_mechanism",
     "item:create:electron_tube",
     "item:create:polished_rose_quartz",
@@ -210,7 +262,6 @@
     "item:create:cardboard_helmet"
   ],
   "craft_history": [
-    "kubejs:kjs/flintrequired_crude_brush",
     "mld:stick_from_birchsticks",
     "minecraft:crafting_table",
     "minecraft:birch_planks",

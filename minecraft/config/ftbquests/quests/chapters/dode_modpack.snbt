@@ -34,27 +34,6 @@
 			y: -0.75d
 		}
 		{
-			dependencies: ["749620475D74F794"]
-			icon: {
-				id: "minecraft:emerald"
-			}
-			id: "2B88699702A6370F"
-			rewards: [{
-				id: "149C23D101DEED5F"
-				item: {
-					count: 1
-					id: "minecraft:paper"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "5583B4C4675B89B1"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["126B8F0E6611485D"]
 			icon: {
 				id: "farmersdelight:stove"
@@ -143,7 +122,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["749620475D74F794"]
+			dependencies: ["5E869C412819C168"]
 			icon: {
 				id: "minecraft:elytra"
 			}
@@ -158,11 +137,11 @@
 			}]
 			tasks: [{
 				id: "2CD2776BE22CD2ED"
-				item: { count: 1, id: "vc_gliders:paraglider_wood" }
+				item: { components: { "ftbquests:missing_item": "vc_gliders:paraglider_wood" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["126B8F0E6611485D"]

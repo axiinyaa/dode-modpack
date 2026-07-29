@@ -8,7 +8,9 @@
   ],
   "enableStackGroups": true,
   "enableCreateStackGroupButton": true,
-  "disabledStackGroups": [],
+  "disabledStackGroups": [
+    "dode:plant_fibers"
+  ],
   "stackGroupItemOrder": {},
   "enableCategorizedTagPages": true,
   "enableEntityTags": true,

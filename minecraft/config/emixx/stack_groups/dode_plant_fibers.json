@@ -1,0 +1,7 @@
+{
+  "type": "emixx:tag",
+  "id": "dode:plant_fibers",
+  "tag": "dode:plant_fibers",
+  "registry": "minecraft:item",
+  "enabled": true
+}

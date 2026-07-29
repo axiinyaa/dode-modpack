@@ -2,8 +2,6 @@ ServerEvents.tags('item', event => {
     event.remove("c:tools/knife", ["farmersdelight:flint_knife"])
     event.add("c:tools/knife", ["flintrequired:flint_knife"])
     event.add("farmersdelight:tools/knives", ["flintrequired:flint_knife"])
-
-    event.add('dode:plant_fibers', ['farmersdelight:straw', 'supplementaries:flax'])
 })
 
 ServerEvents.recipes(event => {
@@ -12,6 +10,16 @@ ServerEvents.recipes(event => {
     event.remove({output: "flintrequired:flint_shovel"})
     event.remove({output: "flintrequired:flint_hoe"})
     event.remove({output: "flintrequired:flint_pickaxe"})
+
+    event.shapeless(
+        'minecraft:flint',
+        [
+            'minecraft:gravel',
+            'minecraft:gravel',
+            'minecraft:gravel',
+            'minecraft:gravel'
+        ]
+    )
     
     event.shaped(
         "flintrequired:flint_knife",
@@ -21,7 +29,7 @@ ServerEvents.recipes(event => {
             '   '
         ],
         {
-            'F': "flintrequired:flint_shard",
+            'F': "minecraft:flint",
             'S': "minecraft:stick"
         }
     )
@@ -34,7 +42,7 @@ ServerEvents.recipes(event => {
             '   '
         ],
         {
-            'F': "flintrequired:flint_shard",
+            'F': "minecraft:flint",
             'S': "minecraft:stick"
         }
     )
@@ -47,9 +55,9 @@ ServerEvents.recipes(event => {
             ' S '
         ],
         {
-            'F': "flintrequired:flint_shard",
+            'F': "minecraft:flint",
             'S': "minecraft:stick",
-            'E': '#dode:plant_fibers'
+            'E': 'farmersdelight:straw'
         }
     )
 
@@ -61,9 +69,9 @@ ServerEvents.recipes(event => {
             ' S '
         ],
         {
-            'F': "flintrequired:flint_shard",
+            'F': "minecraft:flint",
             'S': "minecraft:stick",
-            'E': '#dode:plant_fibers'
+            'E': 'farmersdelight:straw'
         }
     )
 
@@ -75,19 +83,13 @@ ServerEvents.recipes(event => {
             ' S '
         ],
         {
-            'F': "flintrequired:flint_shard",
+            'F': "minecraft:flint",
             'S': "minecraft:stick",
-            'E': '#dode:plant_fibers'
+            'E': 'farmersdelight:straw'
         }
     )
+})
 
-    event.shapeless(
-        "flintrequired:crude_brush",
-        [
-            'minecraft:stick',
-            'minecraft:stick',
-            'minecraft:stick',
-            '#dode:plant_fibers'
-        ]
-    )
+RecipeViewerEvents.removeCategories(event => {
+    event.remove('flintrequired:brushing')
 })
