@@ -26,7 +26,7 @@
 	sneakPreviewRadius = 6.0
 	# Default: 16.0
 	# Range: 1.0 ~ 64.0
-	sneakTriggerRadius = 16.0
+	sneakTriggerRadius = 2
 	# Default: 90.0
 	# Range: 0.0 ~ 180.0
 	maxViewAngle = 90.0

@@ -1,0 +1,34 @@
+filename = 'no-more-pillager-outposts-1.0.2.jar'
+name = 'No More Pillager Outposts'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.18.2',
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.2+mod'
+
+[download]
+hash = '1e699530b291efde8755e75d085c51bef94dafa718539c96776cb19d33575cbc21f9b4f047c5601087af6d371f4191649d7758b43ea358dc7c5e003a3ea9e819'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TVwya3R9/versions/7CfNBoWx/no-more-pillager-outposts-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'TVwya3R9'
+version = '7CfNBoWx'

@@ -1,0 +1,19 @@
+[campfireHealing]
+	#Block radius around a lit campfire or soul campfire where players can regenerate.
+	# Default: 5
+	# Range: 0 ~ 64
+	radius = 5
+	#Health restored each interval. 1.0 is 1 HP, or half a heart.
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	healAmount = 1.0
+	#Seconds between campfire healing pulses.
+	# Default: 3
+	# Range: 1 ~ 3600
+	intervalSeconds = 3
+	#When true, campfire healing only works while the player's hunger bar is full.
+	requiresFullHunger = false
+
+[sleepHealing]
+	#When true, waking up after sleeping restores the player to full health.
+	restoresFullHealth = false

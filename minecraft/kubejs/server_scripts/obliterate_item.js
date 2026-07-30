@@ -12,6 +12,15 @@ const itemList = [
     "/flintrequired:flint_.*_head/",
     "/flintrequired:.*clay_bucket/",
     "/minecraft:wooden_.*/",
+    "minecraft:stone_sword",
+    "minecraft:stone_axe",
+    "minecraft:stone_pickaxe",
+    "minecraft:stone_shovel",
+    "minecraft:stone_hoe",
+    "farmersdelight:diamond_knife",
+    "farmersdelight:golden_knife",
+    "farmersdelight:netherite_knife",
+    "leafscopperbackport:copper_nugget",
     "flintrequired:crude_brush",
     "flintrequired:flint_shard",
     'farmersdelight:skillet'
@@ -42,4 +51,13 @@ EntityEvents.spawned('minecraft:item', event => {
     if (items.includes(event.entity.item.id)) {
         event.cancel()
     }
+})
+
+
+LootJS.modifiers(event => {
+    itemList.forEach(item => {
+        Ingredient.of(item).itemIds.forEach(id => {
+            event.addTableModifier(LootType.CHEST).removeLoot(item)
+        })
+    })
 })

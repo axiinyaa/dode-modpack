@@ -1,11 +1,9 @@
-filename = 'Simple Grass Flowers v1.9.6.zip'
-name = 'Simple Grass Flowers'
+filename = 'Farmer GUI  1.20.2+[1.7.8].zip'
+name = 'Farmer GUI'
 side = 'client'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [
-    '1.20',
-    '1.20.1',
     '1.20.2',
     '1.20.3',
     '1.20.4',
@@ -24,14 +22,14 @@ x-prismlauncher-mc-versions = [
     '1.21.10'
 ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.9.6'
+x-prismlauncher-version-number = '1.7.8'
 
 [download]
-hash = '47c295f2f0afa9509cceb1a35ad65ce2ada3ec443d068e710d841bda974e448447cfaa2510d7cd8a9c92b308894aec31bc892a5129b6b416d458d58c852de4a2'
+hash = 'b09866c90879a297dbda67ca105fa5d1ca84edf7ee7197886cb17c4d92f4eddbb4fb503eeae838301d40528cfcc36b4ea131caf5844fe46d31e433a962baa1bf'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/ti9KkMHm/versions/BFqp4P2V/Simple Grass Flowers v1.9.6.zip'
+url = 'https://cdn.modrinth.com/data/HtpG3F7r/versions/uYsHA3yu/Farmer GUI  1.20.2%2B%5B1.7.8%5D.zip'
 
 [update.modrinth]
-mod-id = 'ti9KkMHm'
-version = 'BFqp4P2V'
+mod-id = 'HtpG3F7r'
+version = 'uYsHA3yu'

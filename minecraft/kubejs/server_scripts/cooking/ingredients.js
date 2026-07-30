@@ -11,6 +11,10 @@ const coldFoods = [
     {item:'farmersdelight:fruit_salad', duration: 800}
 ]
 
+const fruit = [
+    
+]
+
 const vegetables = [
     {item: 'minecraft:carrot', duration: 60},
     {item: 'minecraft:golden_carrot', duration: 1200},

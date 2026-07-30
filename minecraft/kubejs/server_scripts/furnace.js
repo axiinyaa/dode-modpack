@@ -21,6 +21,27 @@ ServerEvents.recipes(event => {
         'minecraft:furnace',
         'minecraft:blast_furnace'
     )
+
+    event.blasting(
+        'minecraft:brick',
+        'minecraft:clay_ball',
+        0.35,
+        100
+    )
+
+    event.blasting(
+        'minecraft:nether_brick',
+        'minecraft:netherrack',
+        0.35,
+        100
+    )
+
+    event.blasting(
+        'supplementaries:ash_brick',
+        'supplementaries:ash',
+        0.35,
+        100
+    )
 })
 
 BlockEvents.rightClicked(event => {
