@@ -1,50 +1,50 @@
-/probejs
-/reload
-/reloasd
-/reload
-/give @s create:hand_crank
-/reload
-/effect give Axiinyaa farmersdelight:nourishment
+/kubejs reload client-scripts
 /reload
 /kubejs hand
+/kubejs reload client-scripts
 /reload
-/effect clear
-/reloasd
+/kubejs
+/kubejs hand
 /reload
-/effect clear
+/kubejs reload client-scripts
 /reload
-/locate biome minecraft:deep_dark
-/tp @s 706 -56 30
-/gamemode spectator
-/pro
-/probejs
+/kubejs reload client-scripts
 /reload
-/spectate
-/gamemode spectator
-/locate structure minecraft:ancient_city
-/tp @s 864 ~ 96
 /gamemode survival
-/kubejs hand
-/give @s minecraft:filled_map[map_id=1]
-/give @s minecraft:filled_map[map_id=2]
-/give @s minecraft:filled_map[map_id=1,map_decorations={+:{rotation:180.0f,type:'minecraft:trial_chambers',x:48.0d,z:-224.0d}}]
-/give @s minecraft:filled_map[map_id=1,map_decorations={+:{rotation:180.0f,type:'ancient_city_map:ancient_city',x:48.0d,z:-224.0d}}]
-/gamemode spectator
 /reload
-/kubejs reload startup-scripts
+/gamemode survival
+/reload
 /gamemode survival
 /reload
 /gamemode creative
 /reload
-/help
-/gamemode sur
+/gamemode creative
+/gamemode spectator
+/effect give Axiinyaa minecraft:health_boost
+/gamemode survival
+/effect give Axiinyaa minecraft:saturation
+/effect give @s minecraft:absorption
+/effect give Axiinyaa minecraft:absorption
 /gamemode survival
 /reload
-/item replace entity @p armor.head with a_man_with_plushies:aggressive_eye_of_cthulhu_plush 1
-/item replace entity @p armor.head with a_man_with_plushies:bandage_girl_plush 1
-/item replace entity @p armor.head with a_man_with_plushies:blue_pikmin_plush 1
+/kubejs reload client-scripts
 /reload
-/relooad
+/kubejs reload client-scripts
 /reload
-/gamemode spectator
+/kubejs reload startup-scripts
 /reload
+/kubejs reload startup-scripts
+/kubejs reload client-scripts
+/reload
+/kubejs reload client-scripts
+/reload
+/kubejs hand
+/reload
+/kubejs hand
+/reload
+/kubejs reload startup-scripts
+/reload
+/effect clear
+/reload
+/clear
+/gamemode survival

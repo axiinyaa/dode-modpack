@@ -1,0 +1,18 @@
+filename = 'StreamsReflowing-1.21.1-neoforge-2.10.2.jar'
+name = 'Streams Reflowing'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.10.2'
+
+[download]
+hash = 'c0a2297c223a29a6cb45ac9314e5f6da92a6860be7233c917fd22e42fbf2d812834d2be3d982f67680272756b159fe5532c811e180ef2299df998ce0f5e31a65'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/oLS8HdJ1/versions/Wo64jLpc/StreamsReflowing-1.21.1-neoforge-2.10.2.jar'
+
+[update.modrinth]
+mod-id = 'oLS8HdJ1'
+version = 'Wo64jLpc'

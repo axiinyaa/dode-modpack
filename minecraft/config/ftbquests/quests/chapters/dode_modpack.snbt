@@ -31,7 +31,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["126B8F0E6611485D"]
@@ -59,8 +59,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -3.0d
+			x: 10.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["126B8F0E6611485D"]
@@ -118,8 +118,8 @@
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: -3.0d
+			x: 13.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["126B8F0E6611485D"]
@@ -145,8 +145,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 2.0d
+			x: 10.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["56CD86B8DEC10727"]
@@ -164,17 +164,17 @@
 				item: { count: 1, id: "minecraft:bread" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: -5.5d
+			x: 10.5d
+			y: -5.0d
 		}
 		{
-			dependencies: ["5E869C412819C168"]
+			dependencies: ["749620475D74F794"]
 			icon: {
 				id: "minecraft:campfire"
 			}
 			id: "5157B67752259A17"
 			rewards: [{
-				count: 12
+				count: 5
 				id: "0780B19B22F38A4E"
 				item: {
 					count: 1
@@ -195,8 +195,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -0.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["43DB31912E19F5F0"]
@@ -214,76 +214,45 @@
 				item: { count: 1, id: "steeladdon:steel_ingot" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 2.0d
+			x: 15.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5157B67752259A17"]
 			id: "754BF1592D40E41B"
-			rewards: [
-				{
-					count: 5
-					id: "5862B594B491412F"
-					item: {
-						count: 1
-						id: "minecraft:raw_copper"
-					}
-					type: "item"
+			rewards: [{
+				count: 20
+				id: "5F7C6464C5A952D1"
+				item: {
+					count: 1
+					id: "minecraft:coal"
 				}
-				{
-					count: 20
-					id: "5F7C6464C5A952D1"
-					item: {
-						count: 1
-						id: "minecraft:coal"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "34B1D57BE09DA8F7"
 				item: { count: 1, id: "minecraft:blast_furnace" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -0.5d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["749620475D74F794"]
-			id: "5E869C412819C168"
-			tasks: [
-				{
-					id: "6ADD837F665B11BA"
-					item: { count: 1, id: "flintrequired:flint_knife" }
-					type: "item"
-				}
-				{
-					id: "0A1F729F17FD6483"
-					item: { count: 1, id: "flintrequired:flint_axe" }
-					type: "item"
-				}
-			]
-			x: 2.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["754BF1592D40E41B"]
+			dependencies: ["53E4921070FF0452"]
 			id: "126B8F0E6611485D"
 			rewards: [{
-				id: "0F8E7F641D2EB571"
-				item: {
-					count: 1
-					id: "supplementaries:confetti_popper"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "04F029679AC8BFEC"
+				table_id: 1255913076614976249L
+				type: "random"
 			}]
 			tasks: [{
 				id: "4C142538947D03A3"
 				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: -0.5d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1A51BF9FDEE93B4E"]
@@ -313,8 +282,8 @@
 					type: "item"
 				}
 			]
-			x: 17.5d
-			y: -3.0d
+			x: 18.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -322,22 +291,32 @@
 				"43DB31912E19F5F0"
 			]
 			id: "33314DC7DD1FF37F"
-			rewards: [{
-				count: 5
-				id: "7284B91B02B3A038"
-				item: {
-					count: 1
-					id: "create:brass_casing"
+			rewards: [
+				{
+					count: 5
+					id: "7284B91B02B3A038"
+					item: {
+						count: 1
+						id: "create:brass_casing"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "40B68ABF7A09E04E"
+					item: {
+						count: 1
+						id: "create:brass_hand"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2201D93382818CF1"
 				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			x: 17.5d
-			y: -0.5d
+			x: 18.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["33314DC7DD1FF37F"]
@@ -369,12 +348,10 @@
 					type: "item"
 				}
 				{
-					id: "5E7E6EF25575000A"
-					item: {
-						count: 1
-						id: "supplementaries:confetti_popper"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "621A56A02B209362"
+					table_id: 1255913076614976249L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -382,8 +359,8 @@
 				item: { count: 1, id: "simulated:physics_assembler" }
 				type: "item"
 			}]
-			x: 19.5d
-			y: -2.5d
+			x: 20.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["33314DC7DD1FF37F"]
@@ -407,12 +384,18 @@
 					type: "item"
 				}
 				{
-					id: "1831157594AAA582"
+					id: "17DA72DEFCD9047B"
 					item: {
 						count: 1
-						id: "supplementaries:confetti_popper"
+						id: "railways:handcar"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F92FF153C0EFDF2"
+					table_id: 1255913076614976249L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -420,8 +403,8 @@
 				item: { count: 1, id: "create:track_station" }
 				type: "item"
 			}]
-			x: 19.5d
-			y: 1.5d
+			x: 20.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["126B8F0E6611485D"]
@@ -440,21 +423,13 @@
 				structure: "minecraft:ancient_city"
 				type: "structure"
 			}]
-			x: 12.5d
-			y: -0.5d
+			x: 13.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5316C10A68D5A5D9"]
 			id: "43DB31912E19F5F0"
 			rewards: [
-				{
-					id: "3C3B9D6E1858A1A4"
-					item: {
-						count: 1
-						id: "supplementaries:confetti_popper"
-					}
-					type: "item"
-				}
 				{
 					id: "4E6615F1D2396FB5"
 					item: {
@@ -463,14 +438,46 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "6383E382BE74CF92"
+					table_id: 1255913076614976249L
+					type: "random"
+				}
 			]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "0DEFF03B0DDE3D9E"
 				type: "dimension"
 			}]
-			x: 15.0d
-			y: -0.5d
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["754BF1592D40E41B"]
+			id: "53E4921070FF0452"
+			rewards: [{
+				id: "6A0516802D49A011"
+				item: {
+					count: 1
+					id: "supplementaries:confetti_popper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "43664B817A0CC5F5"
+					item: { count: 1, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+				{
+					id: "514683066696D295"
+					item: { count: 1, id: "leafscopperbackport:copper_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
 		}
 	]
 }

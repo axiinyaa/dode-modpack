@@ -1,0 +1,29 @@
+filename = 'bigger_fish-1.2.2+1.21.1-neoforge.jar'
+name = "There's Always a Bigger Fish"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.2.2+1.21.1-neoforge'
+
+[download]
+hash = '6fc8c96d03ea3e5475a38159b3a3373b6d98ae8e7c00e16bc19a1708946262d450661db4450b02dcd9c1ee70377f3d53e44789e19d25fca14648718a2f7a4c76'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tKKzcK6F/versions/dPlt2rrA/bigger_fish-1.2.2%2B1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'tKKzcK6F'
+version = 'dPlt2rrA'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qjlkcVfy'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tNmWwdI2'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fRiHVvU7'
+type = 'OPTIONAL'

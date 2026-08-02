@@ -6,12 +6,6 @@ const itemList = [
     "steeladdon:crude_iron",
     "artifacts:everlasting_beef",
     "artifacts:eternal_steak",
-    "farmersdelight:flint_knife",
-    "flintrequired:crude_bow",
-    "flintrequired:plant_fiber",
-    "/flintrequired:flint_.*_head/",
-    "/flintrequired:.*clay_bucket/",
-    "/minecraft:wooden_.*/",
     "minecraft:stone_sword",
     "minecraft:stone_axe",
     "minecraft:stone_pickaxe",
@@ -21,8 +15,6 @@ const itemList = [
     "farmersdelight:golden_knife",
     "farmersdelight:netherite_knife",
     "leafscopperbackport:copper_nugget",
-    "flintrequired:crude_brush",
-    "flintrequired:flint_shard",
     'farmersdelight:skillet'
 ]
 
@@ -38,7 +30,6 @@ ServerEvents.recipes(event => {
     console.log(items)
 
     items.forEach(item => {
-        event.remove({ input: item })
         event.remove({ output: item })
     })
 })

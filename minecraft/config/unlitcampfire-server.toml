@@ -2,7 +2,7 @@
 	#The time (ticks) a campfire burns until it goes out by itself. (2000 ticks default; 0 means it burns forever)
 	# Default: 2000
 	# Range: 0 ~ 2000000
-	campfireLitTime = 2000
+	campfireLitTime = 0
 	#The light level of a campfire decreases when the remaining time (ticks) is lower than this configured value. (600 ticks default; 0 deactivates this behaviour)
 	# Default: 600
 	# Range: 0 ~ 2000000
@@ -30,11 +30,11 @@
 	#Whether generated campfires should be lit infinitely.
 	generatedCampfireIsLitInfinitely = true
 	#Whether infinite campfires should stay lit in rain.
-	infiniteCampfireIgnoresRain = true
+	infiniteCampfireIgnoresRain = false
 	#The time (ticks) a soul campfire burns until it goes out by itself. (2000 ticks default; 0 means it burns forever)
 	# Default: 2000
 	# Range: 0 ~ 2000000
-	soulCampfireLitTime = 2000
+	soulCampfireLitTime = 0
 	#The light level of a soul campfire decreases when the remaining time (ticks) is lower than this configured value. (600 ticks default; 0 deactivates this behaviour)
 	# Default: 600
 	# Range: 0 ~ 2000000

@@ -44,24 +44,24 @@
 	#Maximum durability for the Flint Axe.
 	# Default: 32
 	# Range: 1 ~ 2048
-	flintAxeDurability = 64
+	flintAxeDurability = 128
 	#Maximum durability for the Flint Pickaxe.
 	# Default: 64
 	# Range: 1 ~ 2048
-	flintPickaxeDurability = 64
+	flintPickaxeDurability = 128
 	#Maximum durability for the Flint Shovel.
 	# Default: 32
 	# Range: 1 ~ 2048
-	flintShovelDurability = 32
+	flintShovelDurability = 64
 	#Maximum durability for the Flint Hoe.
 	# Default: 24
 	# Range: 1 ~ 2048
-	flintHoeDurability = 24
+	flintHoeDurability = 64
 	#Maximum durability for the Flint Knife.
 	# Default: 12
 	# Range: 1 ~ 2048
-	flintKnifeDurability = 32
+	flintKnifeDurability = 64
 	#Mining speed multiplier for Flint tools.
 	# Default: 4.0
 	# Range: 0.1 ~ 20.0
-	flintToolSpeed = 4.0
+	flintToolSpeed = 2.0

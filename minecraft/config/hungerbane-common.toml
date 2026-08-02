@@ -15,9 +15,9 @@ nourishedMultiplier = 1.5
 #Set to 1.0 to disable the penalty from Hunger.
 # Default: 0.5
 # Range: 0.0 ~ 1.0
-hungryMultiplier = 0.5
+hungryMultiplier = 0.1
 #Amount of health restored when waking up from a bed (in HP, where 2 HP = 1 heart).
 #Set to 0.0 to disable healing from sleep.
 # Default: 4.0
 # Range: 0.0 ~ 20.0
-wakeHealAmount = 4.0
+wakeHealAmount = 0.0

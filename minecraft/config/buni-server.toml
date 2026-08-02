@@ -1,0 +1,16 @@
+[general]
+	# Default: 9.765625E-4
+	# Range: 0.0 ~ 1.0
+	spawn_chance = 9.765625E-4
+	# Default: 20
+	# Range: 1 ~ 128
+	min_spawn_radius = 20
+	# Default: 40
+	# Range: 1 ~ 128
+	max_spawn_radius = 40
+	# Default: 50
+	# Range: 1 ~ 1000
+	natural_spawn_cap = 50
+	# Default: 0.015625
+	# Range: 0.0 ~ 1.0
+	pick_on = 0.015625

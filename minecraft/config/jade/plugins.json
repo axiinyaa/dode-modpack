@@ -52,11 +52,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "treechop": {
-    "plugin": true,
-    "show_tree_block_counts": true,
-    "show_num_chops_remaining": true
-  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -86,6 +81,10 @@
   },
   "corpse": {
     "corpse": true
+  },
+  "item_descriptions": {
+    "block_descriptions": true,
+    "entity_descriptions": true
   },
   "balm": {
     "jade": true

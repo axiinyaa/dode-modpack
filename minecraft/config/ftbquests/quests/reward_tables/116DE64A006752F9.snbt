@@ -1,0 +1,29 @@
+{
+	hide_tooltip: true
+	id: "116DE64A006752F9"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "60222E96872EF657", item: { count: 1, id: "a_man_with_plushies:steve_plush" } }
+		{ id: "47B9C1C22B9E20D5", item: { count: 1, id: "a_man_with_plushies:creeper_plush" } }
+		{ id: "422E27BEEA05B441", item: { count: 1, id: "a_man_with_plushies:enderman_plush" } }
+		{ id: "238F3796B7481DAC", item: { count: 1, id: "a_man_with_plushies:allay_plush" } }
+		{ id: "4686D6FECB71B72E", item: { count: 1, id: "a_man_with_plushies:squid_plush" } }
+		{ id: "562ECF8516B03AC3", item: { count: 1, id: "a_man_with_plushies:peashooter_plush" } }
+		{ id: "5E9572A1109DA16A", item: { count: 1, id: "a_man_with_plushies:junimo_plush" } }
+		{ id: "2833DFA1EB6989C7", item: { count: 1, id: "a_man_with_plushies:pig_plush" } }
+		{ id: "1EE246ED2EFF8A27", item: { count: 1, id: "a_man_with_plushies:white_sheep_plush" } }
+		{ id: "307FB772AAE14EC4", item: { count: 1, id: "a_man_with_plushies:cow_plush" } }
+		{ id: "5BF685B1CA002287", item: { count: 1, id: "a_man_with_plushies:chicken_plush" } }
+		{ id: "72C5B33624B9897B", item: { count: 1, id: "a_man_with_plushies:ninji_plush" } }
+		{ id: "4A4DC61BB5C60BE3", item: { count: 1, id: "a_man_with_plushies:ultimate_chicken_plush" } }
+		{ id: "38BD96751C131F43", item: { count: 1, id: "a_man_with_plushies:hat_kid_plush" } }
+		{ id: "0A1F0AB82E0CC135", item: { count: 1, id: "a_man_with_plushies:freddy_fazbear_plush" } }
+		{ id: "571C87B97508031C", item: { count: 1, id: "a_man_with_plushies:abbie_plush" } }
+		{ id: "18E8C3E595DCA1B5", item: { count: 1, id: "a_man_with_plushies:the_lamb_red_cape_plush" } }
+		{ id: "772F375915CA47AD", item: { count: 1, id: "a_man_with_plushies:monika_plush" } }
+		{ id: "778111B1951A8490", item: { count: 1, id: "a_man_with_plushies:tenna_plush" } }
+		{ id: "3B63A2C16DB00454", item: { count: 1, id: "a_man_with_plushies:spamton_plush" } }
+	]
+	use_title: true
+}

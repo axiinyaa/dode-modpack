@@ -1,0 +1,5 @@
+[starter_items]
+	#Set the list of items you want the player to start with
+	#To set the items to give to the player declare them like this: "modid:item NUMBER" eg.
+	#"minecraft:leather_cap", "minecraft:leather_boots", "create:wrench", "minecraft:dirt 16"
+	starterItems = ['ftbquests:book']

@@ -1,0 +1,37 @@
+filename = 'penchant-0.3.7+connector+mc1.21.1.jar'
+name = 'Penchant'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '0.3.7+connector+mc1.21.1'
+
+[download]
+hash = '53fac968b5bd7cf16151bbb135adc3ea650252289bcd805329d0dbc33cbebdda89513cd096e0581f74a113e1dd83ad8fd14d9e5f97639fa0708d2ffbc4966686'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/BTORUTmf/versions/wcsDwzvg/penchant-0.3.7%2Bconnector%2Bmc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'BTORUTmf'
+version = 'wcsDwzvg'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Aqlf1Shp'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'rOrXjyPb'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tNmWwdI2'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'TR0G6vEd'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u58R1TMW'
+type = 'REQUIRED'

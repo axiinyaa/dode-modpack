@@ -33,6 +33,8 @@
 		"You can create a campfire using 4 firewood, placing it down on a block, and finally lighting it up using a firestarter."
 		""
 		"This will give an early source of cooking food until you obtain a stove."
+		""
+		"Campfires are also useful to prevent mob spawns!"
 	]
 	quest.5157B67752259A17.title: "Campfire!!"
 	quest.5316C10A68D5A5D9.quest_desc: [
@@ -41,14 +43,10 @@
 		"You can easily find one using an explorer's compass."
 	]
 	quest.5316C10A68D5A5D9.title: "Sneak!"
+	quest.53E4921070FF0452.quest_desc: ["Gather copper, tools and armor to progress to the iron age."]
+	quest.53E4921070FF0452.title: "Copper Age"
 	quest.56CD86B8DEC10727.quest_desc: ["Farmer's Delight expands Minecraft cooking significantly, many recipes require the use of the blocks and items from this mod."]
 	quest.56CD86B8DEC10727.title: "Farmer's Delight"
-	quest.5E869C412819C168.quest_desc: [
-		"Gather flint to create primitive tools, wood tools is no more..."
-		""
-		"Finding flint annoying? Use four gravel to craft it!"
-	]
-	quest.5E869C412819C168.title: "Sticks and Stones"
 	quest.634103EB222F5E25.quest_desc: ["trains are awesome."]
 	quest.634103EB222F5E25.title: "Trains!"
 	quest.6A6E57BA2A2CD8BB.quest_desc: ["Using an assembler you can create simulated structures affected by physics, which can be used to make actual ships, vehicles, airships, you name it!"]
@@ -59,9 +57,10 @@
 		"(TIP: Click on any &9Task&r items to view it's recipes, if it has one.)"
 	]
 	quest.749620475D74F794.title: "Welcome!!"
-	quest.754BF1592D40E41B.quest_desc: ["Use a blast furnace to smelt down ores. This can be crafted using the campfire."]
-	quest.7C939F7360F11AC7.quest_desc: ["Bread making is more complex, a fun challenge to make either manually, or automated with create."]
+	quest.754BF1592D40E41B.quest_desc: ["Use a blast furnace to smelt down ores."]
+	quest.7C939F7360F11AC7.quest_desc: ["Bread! A fun challenge to make either manually, or automated with create."]
 	quest.7C939F7360F11AC7.title: "Bread"
+	reward_table.116DE64A006752F9.title: "Random Plush"
 	task.035686D916A1EF36.title: "Find Ancient City"
 	task.09BA144E5365D906.title: "welcome"
 	task.0DEFF03B0DDE3D9E.title: "The Nether"
