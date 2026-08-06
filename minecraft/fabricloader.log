@@ -1,0 +1,4 @@
+[15:54:46] [WARN] [FabricLoader/Resolution]: Mod resolution failed
+[15:54:46] [INFO] [FabricLoader/Resolution]: Immediate reason: [HARD_DEP_NO_CANDIDATE headpats 1.0.6+1.21.1 {depends cicada @ [*]}, ROOT_FORCELOAD_SINGLE headpats 1.0.6+1.21.1]
+[15:54:46] [INFO] [FabricLoader/Resolution]: Reason: [HARD_DEP headpats 1.0.6+1.21.1 {depends cicada @ [*]}]
+[15:54:46] [INFO] [FabricLoader/Resolution]: Fix: add [add:cicada 1 ([(-∞,∞)])], remove [], replace []
