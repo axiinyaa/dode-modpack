@@ -1,0 +1,33 @@
+filename = 'compasstomapxaeros-0.1.1.jar'
+name = "Compass to Map: Xaero's Minimap"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.1.1'
+
+[download]
+hash = 'c555a55d5af98a8fba44b6c7226f911961f1ac842911e3a1e1c7177783a1cd6c248253354da8524c052c4dde5549de4f9f8675615b6c3f93a714c75b22be44c3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/V7BPfphg/versions/1IWubHUM/compasstomapxaeros-0.1.1.jar'
+
+[update.modrinth]
+mod-id = 'V7BPfphg'
+version = '1IWubHUM'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'RV1qfVQ8'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1bokaNcj'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'NcUtCpym'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fPetb5Kh'
+type = 'OPTIONAL'

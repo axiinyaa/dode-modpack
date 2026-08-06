@@ -1,37 +1,36 @@
 ServerEvents.recipes(event => {
-    event.remove({ output: 'better_campfires:firewood'})
-    event.remove({ output: 'minecraft:campfire'})
-    event.remove({ output: 'minecraft:torch'})
+    event.remove({ output: 'minecraft:campfire' })
+    event.remove({ output: 'minecraft:torch' })
 
-    event.shapeless(
-        Item.of('better_campfires:firewood', 2),
+    event.shaped(
+        'minecraft:campfire',
         [
-            '#minecraft:logs',
-            '#minecraft:axes'
-        ]
-    )
-    .damageIngredient('#minecraft:axes', 5)
-    .keepIngredient('#minecraft:axes')
-    .id('dode_firewood_manual_only')
-
-    event.recipes.farmersdelight.cutting(
-        '#minecraft:logs',
-        '#minecraft:axes', // tool
-        [ // results
-            Item.of('better_campfires:firewood', 4)
+            ' S ',
+            'SCS',
+            'WWW'
         ],
-        // '' // sound
-    )
-
-    event.campfireCooking(
-        'minecraft:torch',
-        'minecraft:stick',
-        0.1,
-        10
+        {
+            'C': 'farmersdelight:straw',
+            'S': 'minecraft:stick',
+            'W': '#minecraft:logs'
+        }
     )
 
     event.shaped(
         Item.of('minecraft:torch', 4),
+        [
+            ' C ',
+            ' S ',
+            '   '
+        ],
+        {
+            'C': 'farmersdelight:straw',
+            'S': 'minecraft:stick'
+        }
+    )
+
+    event.shaped(
+        Item.of('minecraft:torch', 8),
         [
             ' C ',
             ' S ',
@@ -49,16 +48,4 @@ ServerEvents.recipes(event => {
         0.60,
         1200
     )
-
-    event.campfireCooking(
-        'minecraft:brick',
-        'minecraft:clay_ball',
-        1,
-        1200
-    )
-})
-
-LootJS.lootTables(event => {
-    event.getLootTable("minecraft:blocks/campfire").firstPool().removeItem('better_campfires:firewood')
-    event.getLootTable("minecraft:blocks/campfire").firstPool().addEntry('minecraft:campfire')
 })

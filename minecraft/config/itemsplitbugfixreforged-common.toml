@@ -1,0 +1,15 @@
+# ItemSplitBugFix: ReForged
+# Items in this list will not be modified. Supports wildcard '*'.
+# Examples:
+#   - 'minecraft:diamond'
+#   - '*:diamond*'
+#   - 'minecraft:*'
+
+[blacklist_settings]
+blacklist = [
+    "alexscaves:sack_of_sating",
+    "hexerei:*",
+    "spelunkery:*",
+    "minecraft:spyglass",
+    "technicalcores:*"
+]

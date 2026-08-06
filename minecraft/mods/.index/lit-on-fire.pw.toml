@@ -1,0 +1,18 @@
+filename = 'lit_on_fire-1.3.1.jar'
+name = 'Lit on fire'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.1'
+
+[download]
+hash = 'f499620e083fb59231fd0b6c9d6b75a19a80a64be37614b5c1fcc2d7197415385d5948051f0ecb4371206260b4b76ee178eba29e39244b0699dae7109ee54aa0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nBRpI7FP/versions/7UMjqFAI/lit_on_fire-1.3.1.jar'
+
+[update.modrinth]
+mod-id = 'nBRpI7FP'
+version = '7UMjqFAI'

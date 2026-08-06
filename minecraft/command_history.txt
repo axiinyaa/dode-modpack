@@ -1,8 +1,3 @@
-/kubejs reload client-scripts
-/reload
-/kubejs reload client-scripts
-/data get entity e1acad90-fd3f-4f4a-ba19-f92a7598d459
-/reload
 /data get entity e1acad90-fd3f-4f4a-ba19-f92a7598d459
 /data get entity 2be918ba-ed0a-4bfb-acc3-eafd2955a6dc
 /data get entity e1acad90-fd3f-4f4a-ba19-f92a7598d459
@@ -48,3 +43,8 @@
 /tick rate 10000
 /tick rate 20
 /reload
+/kubejs hand
+/spark profiler
+/spark profiler open
+/clear
+/spark profiler open
