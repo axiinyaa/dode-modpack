@@ -3,7 +3,7 @@
 		"favorites": [],
 		"hiddenFavorites": [],
 		"displayHistory": [],
-		"cheating": false,
+		"cheating": true,
 		"favoritesEnabled": true,
 		"reduceMotion": false,
 		"keyBindings": {
@@ -54,7 +54,7 @@
 		"cheatingStyle": "GRAB"
 	},
 	"appearance": {
-		"recipeScreenType": "UNSET",
+		"recipeScreenType": "ORIGINAL",
 		// Declares the appearance of REI windows.
 		"theme": "LIGHT",
 		"layout": {
@@ -161,7 +161,47 @@
 			"cachingDisplayLookup": true,
 			"categorySettings": {
 				"filteringQuickCraftCategories": { },
-				"categoryOrdering": [],
+				"categoryOrdering": [
+					"minecraft:plugins/crafting",
+					"minecraft:plugins/smelting",
+					"minecraft:plugins/smoking",
+					"minecraft:plugins/blasting",
+					"minecraft:plugins/campfire",
+					"minecraft:plugins/stone_cutting",
+					"minecraft:plugins/fuel",
+					"minecraft:plugins/brewing",
+					"minecraft:plugins/composting",
+					"minecraft:plugins/stripping",
+					"minecraft:plugins/smithing",
+					"minecraft:plugins/anvil",
+					"minecraft:plugins/beacon_base",
+					"minecraft:plugins/beacon_payment",
+					"minecraft:plugins/tilling",
+					"minecraft:plugins/pathing",
+					"minecraft:plugins/waxing",
+					"minecraft:plugins/wax_scraping",
+					"minecraft:plugins/oxidizing",
+					"minecraft:plugins/oxidation_scraping",
+					"ftbquests:quest",
+					"ftbquests:loot_crate",
+					"ali:plant_loot",
+					"ali:block_loot",
+					"ali:entity_loot",
+					"ali:chest_loot",
+					"ali:trial_chambers",
+					"ali:fishing_loot",
+					"ali:archaeology_loot",
+					"ali:hero_loot",
+					"ali:cat_morning_gift",
+					"ali:piglin_bartering",
+					"ali:sniffer_digging",
+					"ali:panda_sneeze",
+					"ali:shearing",
+					"ali:gameplay_loot",
+					"ali:trade_loot",
+					"roughlyenoughitems:plugins/information",
+					"minecraft:plugins/tag"
+				],
 				"hiddenCategories": []
 			}
 		},

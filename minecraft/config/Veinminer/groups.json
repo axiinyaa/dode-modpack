@@ -16,6 +16,7 @@
             "searchRadius": null,
             "permissionRestricted": null,
             "decreaseDurability": null,
+            "hungerPerBlock": null,
             "miningSpeedModifier": null
         }
     }

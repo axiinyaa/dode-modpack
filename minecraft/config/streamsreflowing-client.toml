@@ -42,9 +42,9 @@ particlesOnVanillaWater = true
 #Floating debris on the stream surface: sticks and (on 1.21.4+) leaves drifting downstream with
 #the current. Purely visual and client-side.
 #  true = on (default).  false = no sticks or leaves (bubbles and whitewater are unaffected).
-streamDebris = true
+streamDebris = false
 #
 #Show the Streams Reflowing progress line on the world-loading screen while your waterways are
 #prepared during world creation. Purely visual and client-side.
 #  true = show (default).  false = hide it.
-loadingNotice = false
+loadingNotice = true

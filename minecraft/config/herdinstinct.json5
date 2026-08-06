@@ -1,0 +1,36 @@
+{
+	// How far the herd panic search reaches from the damaged animal.
+	herdRadius: 12,
+	// How close a player must be to trigger panic. Set to 0 to disable.
+	playerPanicRange: 0,
+	// Whether the mod logic is globally enabled.
+	enabled: true,
+	// Controls when herd panic is triggered.
+	panicTriggerMode: "PLAYER_HIT",
+	// Controls whether panic affects only the same species or every eligible herd animal in range.
+	panicTargetMode: "ALL",
+	// How long animals stay in panic in seconds.
+	panicDurationSeconds: 5,
+	// Whether modded passive mobs may be included in the compatibility mob list.
+	affectModdedAnimals: true,
+	// Only entity ids in this list are affected by herd panic.
+	includedMobs: [
+		"minecraft:armadillo",
+		"minecraft:camel",
+		"minecraft:chicken",
+		"minecraft:cow",
+		"minecraft:donkey",
+		"minecraft:frog",
+		"minecraft:goat",
+		"minecraft:horse",
+		"minecraft:llama",
+		"minecraft:mooshroom",
+		"minecraft:mule",
+		"minecraft:pig",
+		"minecraft:rabbit",
+		"minecraft:sheep",
+		"minecraft:sniffer",
+		"minecraft:trader_llama",
+		"minecraft:turtle"
+	]
+}

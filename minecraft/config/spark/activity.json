@@ -5,6 +5,32 @@
       "name": "Axiinyaa",
       "uniqueId": "47dc7b42-9113-48d0-bfae-31b2b56bcaed"
     },
+    "time": 1785968352086,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/GgqSt59Kao"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Axiinyaa",
+      "uniqueId": "47dc7b42-9113-48d0-bfae-31b2b56bcaed"
+    },
+    "time": 1785927406303,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/twRIU5Kgzk"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Axiinyaa",
+      "uniqueId": "47dc7b42-9113-48d0-bfae-31b2b56bcaed"
+    },
     "time": 1785147061086,
     "type": "Profiler (live)",
     "data": {

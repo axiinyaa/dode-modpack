@@ -1,0 +1,29 @@
+filename = 'liteminer-neoforge-1.21.1-1.0.3+1.21.1.jar'
+name = 'Liteminer'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.3+1.21.1'
+
+[download]
+hash = '174ea78cf37bd5d9321110ac41b6a6cb92b977e63312f93205ddb54ecc28f01246c793660d637017b58d245d384ea4b42ba3008a270f5ce22958fc56d7fd3ad2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VTnHoofC/versions/wSPMIU4E/liteminer-neoforge-1.21.1-1.0.3%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'VTnHoofC'
+version = 'wSPMIU4E'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ohNO6lps'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vjGZJDu5'
+type = 'REQUIRED'

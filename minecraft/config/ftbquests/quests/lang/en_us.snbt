@@ -3,9 +3,9 @@
 	chapter.79A4920ADC8F3192.title: "Gameplay Changes"
 	quest.126B8F0E6611485D.quest_desc: ["Iron! Harvest and smelt some with a copper pickaxe."]
 	quest.126B8F0E6611485D.title: "Iron Age"
-	quest.1630173DD17417F6.quest_desc: ["Create an antique atlas, a handy map for adding waypoints, put it in your offhand for it to act like a minimap."]
 	quest.1A51BF9FDEE93B4E.quest_desc: ["Andesite is the backbone for automation, obvious or not!"]
 	quest.1A51BF9FDEE93B4E.title: "Create"
+	quest.1C87B69D00CCE246.quest_desc: ["Use an explorer's compass to easily find structures!"]
 	quest.294A25A9F0FC738E.quest_desc: ["This chapter is to introduce changes of note that are not part of the progression!"]
 	quest.294A25A9F0FC738E.title: "Introduction"
 	quest.33314DC7DD1FF37F.quest_desc: [
@@ -24,6 +24,8 @@
 	quest.46970615E0FEFCBB.title: "Create Machines"
 	quest.46B0BFACF964C8D2.quest_desc: ["You'll want plenty of storage, and the easiest way to do that is with backpacks and tool belts."]
 	quest.46B0BFACF964C8D2.title: "Portable Storage"
+	quest.4D9645B614821C79.quest_desc: ["Hold SHIFT (by default) while holding the correct tool to vein mine! "]
+	quest.4D9645B614821C79.title: "Vein Mining"
 	quest.50A5A98C2F87108D.quest_desc: [
 		"An alternative to diamonds, these require you to use create to well... create them!"
 		""
@@ -43,14 +45,22 @@
 		"You can easily find one using an explorer's compass."
 	]
 	quest.5316C10A68D5A5D9.title: "Sneak!"
-	quest.53E4921070FF0452.quest_desc: ["Gather copper, tools and armor to progress to the iron age."]
+	quest.53E4921070FF0452.quest_desc: ["Gather copper, tools and armor to progress to the iron age!"]
 	quest.53E4921070FF0452.title: "Copper Age"
 	quest.56CD86B8DEC10727.quest_desc: ["Farmer's Delight expands Minecraft cooking significantly, many recipes require the use of the blocks and items from this mod."]
 	quest.56CD86B8DEC10727.title: "Farmer's Delight"
+	quest.5E1AD0F1BAFC74E4.quest_desc: [
+		"The RNG of enchanting has been removed; You can now pick and level up your tools!"
+		""
+		"However, in order to get certain enchantments, you will need to &lfind the book of its kind&r and place it on a chiseled bookshelf beside the enchanting table."
+	]
+	quest.5E1AD0F1BAFC74E4.title: "Enchanting"
 	quest.634103EB222F5E25.quest_desc: ["trains are awesome."]
 	quest.634103EB222F5E25.title: "Trains!"
 	quest.6A6E57BA2A2CD8BB.quest_desc: ["Using an assembler you can create simulated structures affected by physics, which can be used to make actual ships, vehicles, airships, you name it!"]
 	quest.6A6E57BA2A2CD8BB.title: "Take to the Skies"
+	quest.7463B533BDFAB139.quest_desc: ["Use a brush to check statuses on farm animals, a higher happiness means a better yield of resources."]
+	quest.7463B533BDFAB139.title: "Animal Wellness"
 	quest.749620475D74F794.quest_desc: [
 		"Hi! Welcome to the dode modpack! This quest book is to help with progression, and provide goals and guidance."
 		""

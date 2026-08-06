@@ -15,7 +15,9 @@ const itemList = [
     "farmersdelight:golden_knife",
     "farmersdelight:netherite_knife",
     "leafscopperbackport:copper_nugget",
-    'farmersdelight:skillet'
+    'farmersdelight:skillet',
+    'minecraft:furnace',
+    'minecraft:smoker',
 ]
 
 const items = []
@@ -43,7 +45,6 @@ EntityEvents.spawned('minecraft:item', event => {
         event.cancel()
     }
 })
-
 
 LootJS.modifiers(event => {
     itemList.forEach(item => {

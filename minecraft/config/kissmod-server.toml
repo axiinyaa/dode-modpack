@@ -32,10 +32,10 @@
 	maxViewAngle = 90.0
 
 [entityParticles]
-	enableEntityParticles = true
 	# Default: 8.0
 	# Range: 1.0 ~ 32.0
-	entityParticleRadius = 8.0
+	entityParticleRadius = 2.0
+	enableEntityParticles = true
 	# Default: 0.35
 	# Range: 0.0 ~ 4.0
 	heartParticleHeightOffset = 0.35

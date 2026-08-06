@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:copper_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:blast_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:dark_oak_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fire_starter:fire_starter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"better_campfires:firewood"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

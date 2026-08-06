@@ -1,0 +1,21 @@
+filename = 'itemsplitbugfixreforged-1.0.0-neoforge+1.21.1.jar'
+name = 'ItemSplitBugFix: ReForged'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'itemsplitbugfixreforged-1.0.0-neoforge+1.21.1.jar'
+
+[download]
+hash = 'dfa6c3a0af8061a665e0d78603f72b7660235483'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8521373
+project-id = 1627774
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'

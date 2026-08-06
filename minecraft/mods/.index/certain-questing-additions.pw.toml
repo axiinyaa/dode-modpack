@@ -1,0 +1,21 @@
+filename = 'certain_questing_additions-neoforge-1.2.0.3+mc1.21.1.jar'
+name = 'Certain Questing Additions'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.0.3'
+
+[download]
+hash = 'c93afe8a9b2d53e7243ac83dc5ed499bfe2ef631f1928a84f257831e5ab32cd340229bd9a63d5b370be65cc76c7c60c4c18c082fbfab7442929e01eac336a2a4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5BPpCYUe/versions/WsryTGqi/certain_questing_additions-neoforge-1.2.0.3%2Bmc1.21.1.jar'
+
+[update.modrinth]
+mod-id = '5BPpCYUe'
+version = 'WsryTGqi'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'

@@ -7,7 +7,6 @@
 		id: "create:cogwheel"
 	}
 	id: "79A4920ADC8F3192"
-	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -43,9 +42,46 @@
 			y: 0.0d
 		}
 		{
-			id: "1630173DD17417F6"
+			id: "7463B533BDFAB139"
 			rewards: [{
-				id: "72CB1B89079A40E7"
+				id: "09C66922443EA617"
+				item: {
+					count: 1
+					id: "buni:buni"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "441EEA93989685CC"
+				item: { count: 1, id: "minecraft:brush" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
+			id: "5E1AD0F1BAFC74E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B9DF369FE71A167"
+				table_id: 1255913076614976249L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5C896A691DE1E045"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "4D9645B614821C79"
+			rewards: [{
+				id: "40AF32F155C801F7"
 				item: {
 					count: 1
 					id: "supplementaries:confetti_popper"
@@ -53,12 +89,12 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "3B03AAFDC2E5AC1B"
-				item: { count: 1, id: "aa4-atlas:antique_atlas" }
+				id: "1CBEEEB2B84ED3E9"
+				item: { count: 1, id: "minecraft:wooden_pickaxe" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: -2.5d
+			y: 0.0d
 		}
 	]
 }

@@ -6,7 +6,7 @@
 		#Enable water splash particles
 		waterSplash = true
 		#Enable cascade particles
-		cascades = true
+		cascades = false
 		#Enable waterfall spray particles
 		waterfallSpray = true
 		#Enable firefly particles

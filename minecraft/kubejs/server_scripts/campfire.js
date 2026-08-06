@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
     )
 
     event.shaped(
-        'minecraft:torch',
+        Item.of('minecraft:torch', 4),
         [
             ' C ',
             ' S ',
@@ -47,6 +47,13 @@ ServerEvents.recipes(event => {
         'minecraft:leather',
         'minecraft:rotten_flesh',
         0.60,
+        1200
+    )
+
+    event.campfireCooking(
+        'minecraft:brick',
+        'minecraft:clay_ball',
+        1,
         1200
     )
 })

@@ -1,7 +1,7 @@
 [general]
 	# Default: 9.765625E-4
 	# Range: 0.0 ~ 1.0
-	spawn_chance = 9.765625E-4
+	spawn_chance = 0.0
 	# Default: 20
 	# Range: 1 ~ 128
 	min_spawn_radius = 20

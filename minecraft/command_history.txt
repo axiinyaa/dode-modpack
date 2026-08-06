@@ -1,50 +1,50 @@
 /kubejs reload client-scripts
 /reload
-/kubejs hand
 /kubejs reload client-scripts
+/data get entity e1acad90-fd3f-4f4a-ba19-f92a7598d459
 /reload
-/kubejs
-/kubejs hand
+/data get entity e1acad90-fd3f-4f4a-ba19-f92a7598d459
+/data get entity 2be918ba-ed0a-4bfb-acc3-eafd2955a6dc
+/data get entity e1acad90-fd3f-4f4a-ba19-f92a7598d459
+/data get entity f8ef855f-0b84-4e57-89bf-d43ddd0210a0
+/data get entity a461c4c7-f06c-448d-aa13-f83e9a6d1070
 /reload
-/kubejs reload client-scripts
+/data get entity a461c4c7-f06c-448d-aa13-f83e9a6d1070
+/data get entity f8ef855f-0b84-4e57-89bf-d43ddd0210a0
+/data get entity a461c4c7-f06c-448d-aa13-f83e9a6d1070
+/weather
+/weather thunder
+/data get entity a461c4c7-f06c-448d-aa13-f83e9a6d1070
+/data get entity 0be5a112-9821-479e-b0f7-741e3436bfe2
+/tick rate 2000
+/tick rate 10000
+/data get entity 0be5a112-9821-479e-b0f7-741e3436bfe2
 /reload
-/kubejs reload client-scripts
+/kill @e
+/data get entity 6f79b10b-a974-4948-993a-c0602111c4b2
 /reload
-/gamemode survival
+/tick rate 20
 /reload
-/gamemode survival
+/data get entity 22618025-feaf-433d-a471-c903e4fd6b86
 /reload
-/gamemode survival
+/tick rate 10000
+/tick rate 20
+/data get entity 411dd71f-f5c6-4ae2-9dac-b99ac0603782
+/tick rate 10000
 /reload
-/gamemode creative
+/data get entity 411dd71f-f5c6-4ae2-9dac-b99ac0603782
+/spark profiler open
+/data get entity 411dd71f-f5c6-4ae2-9dac-b99ac0603782
+/tick rate 10000
+/data get entity 411dd71f-f5c6-4ae2-9dac-b99ac0603782
+/kill @e[type=minecraft:cow]
+/data get entity 3ea885c7-ba76-4f7c-baa5-4d9aa07aae16
+/tick rate 20
+/tick rate 10000
+/tick rate 20
+/veinminer blocks add minecraft:andesite
+/veinminer blocks add #minecraft:logs
 /reload
-/gamemode creative
-/gamemode spectator
-/effect give Axiinyaa minecraft:health_boost
-/gamemode survival
-/effect give Axiinyaa minecraft:saturation
-/effect give @s minecraft:absorption
-/effect give Axiinyaa minecraft:absorption
-/gamemode survival
+/tick rate 10000
+/tick rate 20
 /reload
-/kubejs reload client-scripts
-/reload
-/kubejs reload client-scripts
-/reload
-/kubejs reload startup-scripts
-/reload
-/kubejs reload startup-scripts
-/kubejs reload client-scripts
-/reload
-/kubejs reload client-scripts
-/reload
-/kubejs hand
-/reload
-/kubejs hand
-/reload
-/kubejs reload startup-scripts
-/reload
-/effect clear
-/reload
-/clear
-/gamemode survival

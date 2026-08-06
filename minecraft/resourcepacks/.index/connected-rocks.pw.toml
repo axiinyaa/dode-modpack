@@ -1,0 +1,21 @@
+filename = 'Connected-Rocks 1.21.9+ v1.1.1.zip'
+name = 'Connected Rocks'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.9', '1.21.10', '1.21.11', '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.1'
+
+[download]
+hash = 'e7f9137da1b0cd87df4e8b60f50d16d6c463434a2ef001aa01f0788d6e4c1ee0491c3779bd1caf4b507382e261023f04093bf87cb5f277111e89de91976e243f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IE9kFeq9/versions/Uk7rcW6S/Connected-Rocks 1.21.9%2B v1.1.1.zip'
+
+[update.modrinth]
+mod-id = 'IE9kFeq9'
+version = 'Uk7rcW6S'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1IjD5062'
+type = 'REQUIRED'

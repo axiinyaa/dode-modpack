@@ -9,6 +9,7 @@
     "mergeItemDrops": false,
     "autoUpdate": false,
     "decreaseDurability": true,
+    "hungerPerBlock": 0.0,
     "miningSpeedModifier": 0.0,
     "debug": false,
     "client": {
@@ -25,6 +26,7 @@
             "searchRadius": null,
             "permissionRestricted": null,
             "decreaseDurability": null,
+            "hungerPerBlock": null,
             "miningSpeedModifier": null
         }
     }

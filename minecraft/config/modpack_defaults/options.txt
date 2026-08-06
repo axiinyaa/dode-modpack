@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/xali\u0027s Enhanced Vanilla -1.11.2b-rev.54d51d4.zip","file/xali\u0027s Enchanced Biome River \u0026 Pond v1.2.2.zip","file/xali\u0027s enchanted book v1.0.0.zip","file/xali\u0027s Enchanted Books Addon v4 1.21.5.zip","file/xali\u0027s Enchanted Books Create Addon v1.1.0.zip","file/Comforts Modernized - V1.1.zip","file/Farmer GUI  1.20.2+[1.7.8].zip","file/Os\u0027 Colorful Grasses (Short and Fluffy).zip","file/Fancy Crops v1.3.zip","file/Angel\u0027s_Weather_v1.9.1.3hf.zip","file/Gentler Weather Sounds 2.2.0.zip","file/Better-Leaves-9.5.zip"]
-incompatibleResourcePacks:["file/xali\u0027s Enchanced Biome River \u0026 Pond v1.2.2.zip","file/xali\u0027s Enchanted Books Addon v4 1.21.5.zip","file/xali\u0027s Enchanted Books Create Addon v1.1.0.zip","file/Comforts Modernized - V1.1.zip"]
+resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/xali\u0027s Enchanced Biome River \u0026 Pond v1.2.2.zip","file/xali\u0027s enchanted book v1.0.0.zip","file/xali\u0027s Enchanted Books Addon v4 1.21.5.zip","file/xali\u0027s Enchanted Books Create Addon v1.1.0.zip","file/Comforts Modernized - V1.1.zip","file/Farmer GUI  1.20.2+[1.7.8].zip","file/Angel\u0027s_Weather_v1.9.1.3hf.zip","continuity:default","file/Connected-Paths 26.1 – 26.1.2 v2.1.1.zip","file/Connected-Rocks 1.21.9+ v1.1.1.zip","file/Os\u0027 Colorful Grasses (Short and Fluffy).zip","file/Fancy Crops v1.3.zip","file/Better-Leaves-9.5.zip","file/FreshAnimations_v1.10.1.zip","file/FA+Player-v1.1.zip"]
+incompatibleResourcePacks:["file/xali\u0027s Enchanced Biome River \u0026 Pond v1.2.2.zip","file/xali\u0027s Enchanted Books Addon v4 1.21.5.zip","file/xali\u0027s Enchanted Books Create Addon v1.1.0.zip","file/Comforts Modernized - V1.1.zip","file/Connected-Paths 26.1 – 26.1.2 v2.1.1.zip","file/Connected-Rocks 1.21.9+ v1.1.1.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -144,6 +144,9 @@ key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
 key_key.ponder.ponder:key.keyboard.w
+key_treechop.key.toggle_chopping:key.keyboard.unknown
+key_treechop.key.cycle_sneak_behavior:key.keyboard.unknown
+key_treechop.key.open_settings_overlay:key.keyboard.n
 key_key.trashslot.toggle:key.keyboard.t
 key_key.trashslot.toggle_lock:key.keyboard.unknown
 key_key.trashslot.delete:key.keyboard.delete
@@ -161,42 +164,10 @@ key_key.ok_zoomer.increase_zoom:key.keyboard.unknown
 key_key.ok_zoomer.reset_zoom:key.keyboard.unknown
 key_key.travelertoolbelt.open_toolbelt:key.keyboard.r
 key_key.ftbteams.open_gui:key.keyboard.unknown
+key_key.liteminer.veinmine:key.keyboard.left.shift
 key_key.ftbquests.quests:key.keyboard.g
-key_key.ftbquests.gui.zoom_in:key.keyboard.equal
-key_key.ftbquests.gui.zoom_out:key.keyboard.minus
-key_key.ftbquests.gui.zoom_reset:key.keyboard.0
-key_key.ftbquests.gui.next_chapter:key.keyboard.tab
-key_key.ftbquests.gui.prev_chapter:key.keyboard.tab:SHIFT
-key_key.ftbquests.gui.recenter:key.keyboard.space
-key_key.ftbquests.gui.search:key.keyboard.f:CONTROL
-key_key.ftbquests.gui.extended_info:key.keyboard.f1
-key_key.ftbquests.gui.move_up:key.keyboard.up
-key_key.ftbquests.gui.move_down:key.keyboard.down
-key_key.ftbquests.gui.move_left:key.keyboard.left
-key_key.ftbquests.gui.move_right:key.keyboard.right
-key_key.ftbquests.gui.player_prefs:key.keyboard.p:CONTROL
-key_key.ftbquests.gui_editor.undo:key.keyboard.z:CONTROL
-key_key.ftbquests.gui_editor.redo:key.keyboard.y:CONTROL
-key_key.ftbquests.gui_editor.select_all:key.keyboard.a:CONTROL
-key_key.ftbquests.gui_editor.select_none:key.keyboard.d:CONTROL
-key_key.ftbquests.gui_editor.delete:key.keyboard.delete
-key_key.ftbquests.gui_editor.force_delete:key.keyboard.delete:SHIFT
-key_key.ftbquests.gui_editor.toggle_crosshairs:key.keyboard.r:CONTROL
-key_key.ftbquests.gui_editor.copy:key.keyboard.c:CONTROL
-key_key.ftbquests.gui_editor.paste:key.keyboard.v:CONTROL
-key_key.ftbquests.gui_editor.reward_tables:key.keyboard.t:CONTROL
-key_key.ftbquests.gui_editor.reload_theme:key.keyboard.unknown
-key_key.ftbquests.gui_quest_panel.edit_title:key.keyboard.t
-key_key.ftbquests.gui_quest_panel.edit_subtitle:key.keyboard.s
-key_key.ftbquests.gui_quest_panel.edit_desc:key.keyboard.d
-key_key.ftbquests.gui_quest_panel.add_page_break:key.keyboard.p
-key_key.ftbquests.gui_quest_panel.add_line:key.keyboard.l
-key_key.ftbquests.gui_quest_panel.add_image:key.keyboard.i
-key_key.ftbquests.gui_quest_panel.edit_quest_props:key.keyboard.q
-key_key.sorted.search:key.keyboard.grave.accent
-key_key.sorted.quick_sort:key.keyboard.r
-key_key.sorted.debug_dump:key.keyboard.p
 key_key.antique_atlas.open:key.keyboard.m
+key_key.penchant.show_progress:key.keyboard.left.control
 key_key.kubejs.kubedex:key.keyboard.k
 key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
@@ -211,6 +182,7 @@ key_artifacts.key.charm_of_sinking.toggle:key.keyboard.unknown
 key_artifacts.key.night_vision_goggles.toggle:key.keyboard.unknown
 key_artifacts.key.scarf_of_invisibility.toggle:key.keyboard.unknown
 key_artifacts.key.universal_attractor.toggle:key.keyboard.unknown
+key_key.configured.open_mod_list:key.keyboard.unknown
 key_key.toastcontrol.clear:key.keyboard.j
 key_key.meow.meow:key.keyboard.x
 key_key.jade.config:key.keyboard.keypad.0

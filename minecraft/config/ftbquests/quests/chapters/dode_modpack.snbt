@@ -8,7 +8,6 @@
 		id: "ribbits:toadstool"
 	}
 	id: "1277137CC2FBBA04"
-	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -174,7 +173,7 @@
 			}
 			id: "5157B67752259A17"
 			rewards: [{
-				count: 5
+				count: 4
 				id: "0780B19B22F38A4E"
 				item: {
 					count: 1
@@ -478,6 +477,23 @@
 			]
 			x: 8.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["126B8F0E6611485D"]
+			id: "1C87B69D00CCE246"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DB10E20E8897430"
+				table_id: 1255913076614976249L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18192069AB046288"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
 		}
 	]
 }

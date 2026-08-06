@@ -1,0 +1,20 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"create:hand_crank"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:andesite_casing"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:mechanical_press"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:deployer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:shaft"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:andesite_alloy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"travelertoolbelt:iron_belt"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"travelertoolbelt:netherite_belt"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"yyzsbackpack:iron_backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:emerald"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:veridium"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:iron_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:iron_boots"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:iron_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:blast_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"better_campfires:firewood"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fire_starter:fire_starter"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

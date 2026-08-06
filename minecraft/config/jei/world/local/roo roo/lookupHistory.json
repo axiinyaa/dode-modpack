@@ -1,0 +1,13 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"fire_starter:fire_starter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:oak_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"better_campfires:firewood"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:iron_axe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:warped_fungus_on_a_stick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:chocolate_pie"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:crafting_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"a_man_with_plushies:sans_plush"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"a_man_with_plushies:tenna_plush"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
