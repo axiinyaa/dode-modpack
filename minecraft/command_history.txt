@@ -1,6 +1,4 @@
 /data get entity e1acad90-fd3f-4f4a-ba19-f92a7598d459
-/data get entity 2be918ba-ed0a-4bfb-acc3-eafd2955a6dc
-/data get entity e1acad90-fd3f-4f4a-ba19-f92a7598d459
 /data get entity f8ef855f-0b84-4e57-89bf-d43ddd0210a0
 /data get entity a461c4c7-f06c-448d-aa13-f83e9a6d1070
 /reload
@@ -48,3 +46,5 @@
 /spark profiler open
 /clear
 /spark profiler open
+/locate biome ocean
+/tp @s -3048 82 -1887
