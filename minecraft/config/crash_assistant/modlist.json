@@ -21,14 +21,6 @@
     "curseForgeHash": 364277560,
     "modrinthHash": "d4d48bde7b92449f34281159232650d8dda28ad0"
   },
-  "aerowear-1.0.0.jar": {
-    "jarName": "aerowear-1.0.0.jar",
-    "modId": "aerowear",
-    "name": "Aerowear",
-    "version": "1.0.0",
-    "curseForgeHash": 2947529846,
-    "modrinthHash": "e1e612a66b9ae420719ba92ecff8ab39b272a411"
-  },
   "Almanac-1.21.1-2-neoforge-1.5.2.jar": {
     "jarName": "Almanac-1.21.1-2-neoforge-1.5.2.jar",
     "modId": "almanac",
@@ -301,14 +293,6 @@
     "curseForgeHash": 1343614969,
     "modrinthHash": "df5c0c092f4656277cb8f4f180c6260510665ee3"
   },
-  "contraption-lights-neoforge-1.21.1-1.3.0.jar": {
-    "jarName": "contraption-lights-neoforge-1.21.1-1.3.0.jar",
-    "modId": "contraptionlights",
-    "name": "Contraption Lights",
-    "version": "1.3.0",
-    "curseForgeHash": 2580722348,
-    "modrinthHash": "e16cdd7caa14042daceb71c39a8e1f5848c0e27d"
-  },
   "Controlling-neoforge-1.21.1-19.0.5.jar": {
     "jarName": "Controlling-neoforge-1.21.1-19.0.5.jar",
     "modId": "controlling",
@@ -365,14 +349,6 @@
     "curseForgeHash": 522093599,
     "modrinthHash": "0e97e49837bed766e6f28a4c95b04885d6acc353"
   },
-  "create-aeronautics-bundled-1.21.1-1.3.0.jar": {
-    "jarName": "create-aeronautics-bundled-1.21.1-1.3.0.jar",
-    "modId": "aeronautics_bundled",
-    "name": "Create Aeronautics",
-    "version": "1.3.0",
-    "curseForgeHash": 2810125270,
-    "modrinthHash": "a2b08963ebc9f331f52c626aebcd65013e100d69"
-  },
   "create_connected-1.3.2-mc1.21.1.jar": {
     "jarName": "create_connected-1.3.2-mc1.21.1.jar",
     "modId": "create_connected",
@@ -396,14 +372,6 @@
     "version": "1.6.0",
     "curseForgeHash": 2731137872,
     "modrinthHash": "87b539d41ed238e98b26c607c0c81a973323147e"
-  },
-  "createpropulsion-1.1.5.jar": {
-    "jarName": "createpropulsion-1.1.5.jar",
-    "modId": "createpropulsion",
-    "name": "Create Propulsion: Simulated",
-    "version": "1.1.5",
-    "curseForgeHash": 3388102795,
-    "modrinthHash": "928e9428ee92d07426c296b04a7fffb1e737e290"
   },
   "createrailgrinding-1.2.1.jar": {
     "jarName": "createrailgrinding-1.2.1.jar",
@@ -1394,30 +1362,6 @@
     "curseForgeHash": 3040775212,
     "modrinthHash": "efeac464b140515ff2e6c60d3126cac7f5fdf1ff"
   },
-  "sable-neoforge-1.21.1-2.0.3.jar": {
-    "jarName": "sable-neoforge-1.21.1-2.0.3.jar",
-    "modId": "sable",
-    "name": "Sable",
-    "version": "2.0.3",
-    "curseForgeHash": 2953750138,
-    "modrinthHash": "f3ba9a497122ba29d9e94ebe6f9a3a3aaa5fa756"
-  },
-  "sablebeyond-neoforge-1.21.1-v0.5.0.jar": {
-    "jarName": "sablebeyond-neoforge-1.21.1-v0.5.0.jar",
-    "modId": "sable_beyond",
-    "name": "Sable Beyond",
-    "version": "0.5.0",
-    "curseForgeHash": 3413219138,
-    "modrinthHash": "6040db8c52ddd2fe6e9c266a52df8865107e4124"
-  },
-  "sablephysicscompat-1.3.0.jar": {
-    "jarName": "sablephysicscompat-1.3.0.jar",
-    "modId": "sablephysicscompat",
-    "name": "Sable: Physics Compat",
-    "version": "1.3.0",
-    "curseForgeHash": 1001438536,
-    "modrinthHash": "ca5753e923c501acf43ff0d2fcf09f32240504c3"
-  },
   "salts_animal_farm-1.21.1-NeoForge-0.2.jar": {
     "jarName": "salts_animal_farm-1.21.1-NeoForge-0.2.jar",
     "modId": "salts_animal_farm",
@@ -1457,14 +1401,6 @@
     "version": "1.21.1-1.0",
     "curseForgeHash": 724360687,
     "modrinthHash": "b5d4345a8cec7135da2463e5eb4f91573d43f351"
-  },
-  "simulatedcoasters-0.1.jar": {
-    "jarName": "simulatedcoasters-0.1.jar",
-    "modId": "simulatedcoasters",
-    "name": "Create: Coasters Simulated",
-    "version": "0.1",
-    "curseForgeHash": 3882603001,
-    "modrinthHash": "eb9d19030bbd63f6f5ffba2adf918bb2420f4545"
   },
   "skinlayers3d-neoforge-1.11.2-mc1.21.1.jar": {
     "jarName": "skinlayers3d-neoforge-1.11.2-mc1.21.1.jar",

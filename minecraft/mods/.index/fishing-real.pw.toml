@@ -1,0 +1,18 @@
+filename = 'fishingreal-neoforge-1.21.1-1.9.1.jar'
+name = 'Fishing Real'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.9.1'
+
+[download]
+hash = 'cc2816d1f2b95b268ff115f3a021f85c9cc4f17b44291e5fbf88a0ff8533fa83a1d7e202bdb5edd408389fc9a26b530bffe3bc662004268f734b4bcb56f4a40c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MIdaKqt7/versions/b8gdTrAQ/fishingreal-neoforge-1.21.1-1.9.1.jar'
+
+[update.modrinth]
+mod-id = 'MIdaKqt7'
+version = 'b8gdTrAQ'
